@@ -1,0 +1,56 @@
+<mockup version="1.0" skin="sketch" measuredW="803" measuredH="456" mockupW="709" mockupH="448">
+  <controls>
+    <control controlID="45" controlTypeID="com.balsamiq.mockups::MenuBar" x="393" y="365" w="350" h="29" measuredW="203" measuredH="29" zOrder="0" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>File%2CEdit%2CView%2CHelp</text>
+      </controlProperties>
+    </control>
+    <control controlID="46" controlTypeID="com.balsamiq.mockups::BrowserWindow" x="94" y="8" w="709" h="448" measuredW="450" measuredH="400" zOrder="1" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Sistema%20de%20Ventas%20de%20pautas%20publicitarias%0Ahttp%3A//www.crpradio.com.pe/ventas</text>
+      </controlProperties>
+    </control>
+    <control controlID="47" controlTypeID="com.balsamiq.mockups::SubTitle" x="127" y="94" w="-1" h="-1" measuredW="301" measuredH="33" zOrder="2" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Mantenimiento%20de%20Empresas</text>
+      </controlProperties>
+    </control>
+    <control controlID="48" controlTypeID="com.balsamiq.mockups::TextInput" x="277" y="127" w="278" h="-1" measuredW="79" measuredH="27" zOrder="3" locked="false" isInGroup="-1"/>
+    <control controlID="49" controlTypeID="com.balsamiq.mockups::Label" x="127" y="129" w="172" h="22" measuredW="133" measuredH="21" zOrder="4" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Nombre%20o%20raz%F3n%20social</text>
+      </controlProperties>
+    </control>
+    <control controlID="50" controlTypeID="com.balsamiq.mockups::Label" x="578" y="128" w="64" h="24" measuredW="33" measuredH="21" zOrder="5" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>RUC</text>
+      </controlProperties>
+    </control>
+    <control controlID="51" controlTypeID="com.balsamiq.mockups::TextInput" x="642" y="127" w="123" h="-1" measuredW="79" measuredH="27" zOrder="6" locked="false" isInGroup="-1"/>
+    <control controlID="52" controlTypeID="com.balsamiq.mockups::Button" x="703" y="177" w="-1" h="-1" measuredW="62" measuredH="27" zOrder="7" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Buscar</text>
+      </controlProperties>
+    </control>
+    <control controlID="53" controlTypeID="com.balsamiq.mockups::DataGrid" x="127" y="214" w="643" h="197" measuredW="719" measuredH="85" zOrder="8" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Nombre%5E%2C%20RUC%2C%20Direccion%2C%20Telefono%2C%20Contacto%2C%20Mail%0ARepsol%20SA%2C%20345645981256%2C%20Av.%20Argentina%203456%2C%20879-8778%2C%20Miguel%20Rios%2C%20rios.miguel@repsol.com%0AMaquinarias%20Traver%20SA%2C%20927581230086%2C%20Av.%20Arequipa%20345%2C%20616-2000%2C%20Jose%20Sanchez%2C%20jsanchez@traver.com.pe%0A%7B75L%2C%200R%2C%2025%2C%200C%7D</text>
+      </controlProperties>
+    </control>
+    <control controlID="54" controlTypeID="com.balsamiq.mockups::Button" x="205" y="177" w="-1" h="-1" measuredW="73" measuredH="27" zOrder="9" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Modificar</text>
+      </controlProperties>
+    </control>
+    <control controlID="55" controlTypeID="com.balsamiq.mockups::Button" x="287" y="177" w="59" h="28" measuredW="66" measuredH="27" zOrder="10" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Eliminar</text>
+      </controlProperties>
+    </control>
+    <control controlID="56" controlTypeID="com.balsamiq.mockups::Button" x="127" y="177" w="-1" h="-1" measuredW="71" measuredH="27" zOrder="11" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Agregar</text>
+      </controlProperties>
+    </control>
+  </controls>
+</mockup>
