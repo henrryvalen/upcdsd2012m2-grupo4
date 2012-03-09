@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<objects xmlns="http://www.springframework.net">
+  <object id="actividadDAO_EF" type="TimeSheet.DAL.EF.ActividadDAO, TimeSheet.DAL" />
+  <object id="clienteDAO_EF" type="TimeSheet.DAL.EF.ClienteDAO, TimeSheet.DAL" />
+  <object id="empleadoDAO_EF" type="TimeSheet.DAL.EF.EmpleadoDAO, TimeSheet.DAL" />
+  <object id="marcaDAO_EF" type="TimeSheet.DAL.EF.MarcaDAO, TimeSheet.DAL" />
+  <object id="planificacionDAO_EF" type="TimeSheet.DAL.EF.PlanificacionDAO, TimeSheet.DAL" />
+  <object id="productoDAO_EF" type="TimeSheet.DAL.EF.ProductoDAO, TimeSheet.DAL" />
+  <object id="usuarioDAO_EF" type="TimeSheet.DAL.EF.UsuarioDAO, TimeSheet.DAL" />
+  <object id="registrohoraDAO_EF" type="TimeSheet.DAL.EF.RegistroHoraDAO, TimeSheet.DAL" />
+</objects>

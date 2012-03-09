@@ -1,0 +1,53 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Componentes", "Componentes", "{D2BE5D8D-11F4-4121-84F7-50D949D059EB}"
+	ProjectSection(SolutionItems) = preProject
+		Componentes\EntityFramework.4.1.10331.0\lib\EntityFramework.dll = Componentes\EntityFramework.4.1.10331.0\lib\EntityFramework.dll
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{70D8F653-9B93-44B5-A73B-04D9C4FE8015}"
+	ProjectSection(SolutionItems) = preProject
+		Local.testsettings = Local.testsettings
+		TraceAndTestImpact.testsettings = TraceAndTestImpact.testsettings
+		Ventas.vsmdi = Ventas.vsmdi
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ventas.BE", "Ventas.BE\Ventas.BE.csproj", "{3C8BB19C-7A5D-47B9-8586-59391C710803}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ventas.BL", "Ventas.BL\Ventas.BL.csproj", "{1ECB8DF1-787D-494D-B74D-0BF8FBEDBE8C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ventas.DAL", "Ventas.DAT\Ventas.DAL.csproj", "{8B4BD989-F1B1-4C7B-9413-2C06081C85FC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ventas.Web", "Ventas.Web\Ventas.Web.csproj", "{DE5BF524-9D2B-4CBE-82AA-E31DA946678E}"
+EndProject
+Global
+	GlobalSection(TestCaseManagementSettings) = postSolution
+		CategoryFile = Ventas.vsmdi
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3C8BB19C-7A5D-47B9-8586-59391C710803}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3C8BB19C-7A5D-47B9-8586-59391C710803}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3C8BB19C-7A5D-47B9-8586-59391C710803}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3C8BB19C-7A5D-47B9-8586-59391C710803}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1ECB8DF1-787D-494D-B74D-0BF8FBEDBE8C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1ECB8DF1-787D-494D-B74D-0BF8FBEDBE8C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1ECB8DF1-787D-494D-B74D-0BF8FBEDBE8C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1ECB8DF1-787D-494D-B74D-0BF8FBEDBE8C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8B4BD989-F1B1-4C7B-9413-2C06081C85FC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8B4BD989-F1B1-4C7B-9413-2C06081C85FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8B4BD989-F1B1-4C7B-9413-2C06081C85FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8B4BD989-F1B1-4C7B-9413-2C06081C85FC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DE5BF524-9D2B-4CBE-82AA-E31DA946678E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DE5BF524-9D2B-4CBE-82AA-E31DA946678E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DE5BF524-9D2B-4CBE-82AA-E31DA946678E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DE5BF524-9D2B-4CBE-82AA-E31DA946678E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

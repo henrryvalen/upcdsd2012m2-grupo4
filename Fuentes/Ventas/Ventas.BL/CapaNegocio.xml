@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<objects xmlns="http://www.springframework.net">
+  <object id="adminService" type="TimeSheet.BL.AdminServiceImpl, TimeSheet.BL">
+    <property name="clienteDAO" ref="clienteDAO_EF"></property>
+    <property name="marcaDAO" ref="marcaDAO_EF"></property>
+    <property name="productoDAO" ref="productoDAO_EF"></property>
+  </object>
+  <object id="horaService" type="TimeSheet.BL.HoraServiceImpl, TimeSheet.BL">
+    <property name="actividadDAO" ref="actividadDAO_EF"></property>
+    <property name="clienteDAO" ref="clienteDAO_EF"></property>
+    <property name="empleadoDAO" ref="empleadoDAO_EF"></property>
+    <property name="marcaDAO" ref="marcaDAO_EF"></property>
+    <property name="planificacionDAO" ref="planificacionDAO_EF"></property>
+    <property name="productoDAO" ref="productoDAO_EF"></property>
+    <property name="registrohoraDAO" ref="registrohoraDAO_EF"></property>
+    <property name="usuarioDAO" ref="usuarioDAO_EF"></property>
+  </object>
+  </objects>

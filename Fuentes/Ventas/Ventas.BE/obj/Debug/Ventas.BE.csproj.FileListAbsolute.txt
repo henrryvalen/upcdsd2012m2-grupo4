@@ -1,0 +1,10 @@
+C:\Productos\Fuentes\TimeSheet.BE\bin\Debug\TimeSheet.BE.dll
+C:\Productos\Fuentes\TimeSheet.BE\bin\Debug\TimeSheet.BE.pdb
+C:\Productos\Fuentes\TimeSheet.BE\obj\Debug\ResolveAssemblyReference.cache
+C:\Productos\Fuentes\TimeSheet.BE\obj\Debug\TimeSheet.BE.dll
+C:\Productos\Fuentes\TimeSheet.BE\obj\Debug\TimeSheet.BE.pdb
+C:\Productos\Fuentes\Ventas.BE\bin\Debug\TimeSheet.BE.dll
+C:\Productos\Fuentes\Ventas.BE\bin\Debug\TimeSheet.BE.pdb
+C:\Productos\Fuentes\Ventas.BE\obj\Debug\ResolveAssemblyReference.cache
+C:\Productos\Fuentes\Ventas.BE\obj\Debug\TimeSheet.BE.dll
+C:\Productos\Fuentes\Ventas.BE\obj\Debug\TimeSheet.BE.pdb
