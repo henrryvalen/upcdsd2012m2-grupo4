@@ -1,0 +1,5 @@
+D:\UPC\2012-01\dsd\wk_net_projects\DSDServicio1WebGpo4\DSDServicio1WebGpo4\bin\DSDServicio1WebGpo4.dll
+D:\UPC\2012-01\dsd\wk_net_projects\DSDServicio1WebGpo4\DSDServicio1WebGpo4\bin\DSDServicio1WebGpo4.pdb
+D:\UPC\2012-01\dsd\wk_net_projects\DSDServicio1WebGpo4\DSDServicio1WebGpo4\obj\Debug\ResolveAssemblyReference.cache
+D:\UPC\2012-01\dsd\wk_net_projects\DSDServicio1WebGpo4\DSDServicio1WebGpo4\obj\Debug\DSDServicio1WebGpo4.dll
+D:\UPC\2012-01\dsd\wk_net_projects\DSDServicio1WebGpo4\DSDServicio1WebGpo4\obj\Debug\DSDServicio1WebGpo4.pdb
