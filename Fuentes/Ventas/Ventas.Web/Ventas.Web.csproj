@@ -140,7 +140,7 @@
       <Project>{1ECB8DF1-787D-494D-B74D-0BF8FBEDBE8C}</Project>
       <Name>Ventas.BL</Name>
     </ProjectReference>
-    <ProjectReference Include="..\TimeSheet.DAT\Ventas.DAL.csproj">
+    <ProjectReference Include="..\Ventas.DAT\Ventas.DAL.csproj">
       <Project>{8B4BD989-F1B1-4C7B-9413-2C06081C85FC}</Project>
       <Name>Ventas.DAL</Name>
     </ProjectReference>
