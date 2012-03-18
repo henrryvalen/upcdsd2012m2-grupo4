@@ -27,7 +27,7 @@ namespace Ventas.BL
         {
             TipoPauta beTipoPauta = new TipoPauta();
             beTipoPauta.Descripcion = nombre;
-            beTipoPauta.Estado = "Activo";
+            beTipoPauta.Estado = estado;
             return tipoPautaDAO.Crear(beTipoPauta);
         }
 
@@ -50,12 +50,60 @@ namespace Ventas.BL
             tipoPautaDAO.Eliminar(beTipoPauta);
         }
 
+        public ICollection<TipoPauta> ListarTipoPauta(int codigoTipoPauta)
+        {
+            throw new NotImplementedException();
+        }
+
         #endregion
+
+
+
+
+
+        #region "Empresa"
+
+        public ICollection<Empresa> ListarEmpresa()
+        {
+            return tipoPautaDAO.ListarTodos();
+        }
+
+        public TipoPauta RegistrarTipoPauta(int codigoTipoPauta, string nombre, string estado)
+        {
+            TipoPauta beTipoPauta = new TipoPauta();
+            beTipoPauta.Descripcion = nombre;
+            beTipoPauta.Estado = estado;
+            return tipoPautaDAO.Crear(beTipoPauta);
+        }
+
+        public TipoPauta ObtenerTipoPauta(int codigoTipoPauta)
+        {
+            return tipoPautaDAO.Obtener(codigoTipoPauta);
+        }
+
+        public TipoPauta ModificarTipoPauta(int codigoTipoPauta, string nombre, string estado)
+        {
+            TipoPauta beTipoPauta = tipoPautaDAO.Obtener(codigoTipoPauta);
+            beTipoPauta.Descripcion = nombre;
+            beTipoPauta.Estado = estado;
+            return tipoPautaDAO.Modificar(beTipoPauta);
+        }
+
+        public void EliminarTipoPauta(int codigoTipoPauta)
+        {
+            TipoPauta beTipoPauta = tipoPautaDAO.Obtener(codigoTipoPauta);
+            tipoPautaDAO.Eliminar(beTipoPauta);
+        }
 
         public ICollection<TipoPauta> ListarTipoPauta(int codigoTipoPauta)
         {
             throw new NotImplementedException();
         }
+
+        #endregion
+
+
+
     }
 }
 

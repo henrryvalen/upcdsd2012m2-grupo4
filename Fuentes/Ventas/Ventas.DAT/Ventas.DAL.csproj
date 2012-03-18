@@ -47,6 +47,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="ConexionUtil.cs" />
+    <Compile Include="EF\ORM\EmpresaMapping.cs" />
     <Compile Include="EF\ORM\TipoPautaMapping.cs" />
     <Compile Include="EF\TipoPautaDAO.cs" />
     <Compile Include="ITipoPautaDAO.cs" />

@@ -8,3 +8,8 @@ C:\Productos\Fuentes\Ventas.BE\bin\Debug\TimeSheet.BE.pdb
 C:\Productos\Fuentes\Ventas.BE\obj\Debug\ResolveAssemblyReference.cache
 C:\Productos\Fuentes\Ventas.BE\obj\Debug\TimeSheet.BE.dll
 C:\Productos\Fuentes\Ventas.BE\obj\Debug\TimeSheet.BE.pdb
+C:\Users\Belen\Desktop\UPC-EPE\201200\DESARROLLO DE SISTEMAS DISTRIBUIDOS\upcdsd2012m2-grupo4\Fuentes\Ventas\Ventas.BE\bin\Debug\TimeSheet.BE.dll
+C:\Users\Belen\Desktop\UPC-EPE\201200\DESARROLLO DE SISTEMAS DISTRIBUIDOS\upcdsd2012m2-grupo4\Fuentes\Ventas\Ventas.BE\bin\Debug\TimeSheet.BE.pdb
+C:\Users\Belen\Desktop\UPC-EPE\201200\DESARROLLO DE SISTEMAS DISTRIBUIDOS\upcdsd2012m2-grupo4\Fuentes\Ventas\Ventas.BE\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Belen\Desktop\UPC-EPE\201200\DESARROLLO DE SISTEMAS DISTRIBUIDOS\upcdsd2012m2-grupo4\Fuentes\Ventas\Ventas.BE\obj\Debug\TimeSheet.BE.dll
+C:\Users\Belen\Desktop\UPC-EPE\201200\DESARROLLO DE SISTEMAS DISTRIBUIDOS\upcdsd2012m2-grupo4\Fuentes\Ventas\Ventas.BE\obj\Debug\TimeSheet.BE.pdb

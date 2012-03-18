@@ -18,8 +18,6 @@ namespace Ventas.BE
         [Required(ErrorMessage = "La descripción del tipo de pauta es obligatorio")]
         public string Descripcion { get; set; }
 
-
-
         [DataMember]
         [Required(ErrorMessage = "El estado es obligatorio")]
         public string Estado { get; set; }

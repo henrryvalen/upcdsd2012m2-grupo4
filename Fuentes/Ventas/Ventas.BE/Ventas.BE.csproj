@@ -42,6 +42,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Empresa.cs" />
     <Compile Include="TipoPauta.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

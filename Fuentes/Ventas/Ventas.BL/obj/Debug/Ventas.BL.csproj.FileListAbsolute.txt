@@ -21,3 +21,14 @@ C:\Productos\Fuentes\Ventas.BL\bin\Debug\EntityFramework.xml
 C:\Productos\Fuentes\Ventas.BL\obj\Debug\ResolveAssemblyReference.cache
 C:\Productos\Fuentes\Ventas.BL\obj\Debug\Ventas.BL.dll
 C:\Productos\Fuentes\Ventas.BL\obj\Debug\Ventas.BL.pdb
+C:\Users\Belen\Desktop\UPC-EPE\201200\DESARROLLO DE SISTEMAS DISTRIBUIDOS\upcdsd2012m2-grupo4\Fuentes\Ventas\Ventas.BL\bin\Debug\Ventas.BL.dll
+C:\Users\Belen\Desktop\UPC-EPE\201200\DESARROLLO DE SISTEMAS DISTRIBUIDOS\upcdsd2012m2-grupo4\Fuentes\Ventas\Ventas.BL\bin\Debug\Ventas.BL.pdb
+C:\Users\Belen\Desktop\UPC-EPE\201200\DESARROLLO DE SISTEMAS DISTRIBUIDOS\upcdsd2012m2-grupo4\Fuentes\Ventas\Ventas.BL\bin\Debug\TimeSheet.BE.dll
+C:\Users\Belen\Desktop\UPC-EPE\201200\DESARROLLO DE SISTEMAS DISTRIBUIDOS\upcdsd2012m2-grupo4\Fuentes\Ventas\Ventas.BL\bin\Debug\Ventas.DAL.dll
+C:\Users\Belen\Desktop\UPC-EPE\201200\DESARROLLO DE SISTEMAS DISTRIBUIDOS\upcdsd2012m2-grupo4\Fuentes\Ventas\Ventas.BL\bin\Debug\EntityFramework.dll
+C:\Users\Belen\Desktop\UPC-EPE\201200\DESARROLLO DE SISTEMAS DISTRIBUIDOS\upcdsd2012m2-grupo4\Fuentes\Ventas\Ventas.BL\bin\Debug\TimeSheet.BE.pdb
+C:\Users\Belen\Desktop\UPC-EPE\201200\DESARROLLO DE SISTEMAS DISTRIBUIDOS\upcdsd2012m2-grupo4\Fuentes\Ventas\Ventas.BL\bin\Debug\Ventas.DAL.pdb
+C:\Users\Belen\Desktop\UPC-EPE\201200\DESARROLLO DE SISTEMAS DISTRIBUIDOS\upcdsd2012m2-grupo4\Fuentes\Ventas\Ventas.BL\bin\Debug\EntityFramework.xml
+C:\Users\Belen\Desktop\UPC-EPE\201200\DESARROLLO DE SISTEMAS DISTRIBUIDOS\upcdsd2012m2-grupo4\Fuentes\Ventas\Ventas.BL\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Belen\Desktop\UPC-EPE\201200\DESARROLLO DE SISTEMAS DISTRIBUIDOS\upcdsd2012m2-grupo4\Fuentes\Ventas\Ventas.BL\obj\Debug\Ventas.BL.dll
+C:\Users\Belen\Desktop\UPC-EPE\201200\DESARROLLO DE SISTEMAS DISTRIBUIDOS\upcdsd2012m2-grupo4\Fuentes\Ventas\Ventas.BL\obj\Debug\Ventas.BL.pdb

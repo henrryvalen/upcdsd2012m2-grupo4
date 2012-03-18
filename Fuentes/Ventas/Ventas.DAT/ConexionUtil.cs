@@ -15,7 +15,7 @@ namespace Ventas.DAL
         {
             if (_CadenaConexion == null)
             {
-                _CadenaConexion = "Server=VIRTUALXP-50904\\SQL2008; User ID=sa; Initial Catalog=Ventas; password=royal2008;";
+                _CadenaConexion = "Server=localhost; Integrated Security=True; Initial Catalog=Ventas;";
             }
             return _CadenaConexion;
         }

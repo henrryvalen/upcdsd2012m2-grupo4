@@ -19,5 +19,16 @@ namespace Ventas.BL
         ICollection<TipoPauta> ListarTipoPauta(int codigoTipoPauta);
         #endregion
 
+        #region Empresa
+
+        ICollection<Empresa> ListarEmpresa();
+        Empresa ObtenerEmpresa(int codigoEmpresa);
+        Empresa RegistrarEmpresa(int codigoEmpresa, string RUC, string nombrecomercial, string direccion, string telefono, string Estado);
+        TipoPauta ModificarEmpresa(int codigoEmpresa, string RUC, string nombrecomercial, string direccion, string telefono, string Estado);
+        void EliminarEmpresa(int codigoEmpresa);
+        ICollection<Empresa> ListarEmpresa(int codigoEmpresa);
+
+        #endregion
+
     }
 }

@@ -18,6 +18,13 @@
             <%: Html.TextBoxFor(model => model.Descripcion)%>
             <%: Html.ValidationMessageFor(model => model.Descripcion)%>
         </div>
+        <div class="editor-label">
+            <%: Html.LabelFor(model => model.Estado) %>
+            </div>
+            <div class="editor-field">
+            <%: Html.DropDownListFor(model => model.Estado, (SelectList)ViewData["Estado"], "-- Seleccione --", new { style = "width:200px;" })%>
+            <%= Html.ValidationMessageFor(model => model.Estado)%>
+            </div>
         <p>
             <input type="submit" value="Agregar" />
         </p>
