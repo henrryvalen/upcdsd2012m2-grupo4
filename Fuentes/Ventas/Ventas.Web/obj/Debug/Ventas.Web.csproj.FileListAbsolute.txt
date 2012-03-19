@@ -37,3 +37,16 @@ C:\Users\Belen\Desktop\UPC-EPE\201200\DESARROLLO DE SISTEMAS DISTRIBUIDOS\upcdsd
 C:\Users\Belen\Desktop\UPC-EPE\201200\DESARROLLO DE SISTEMAS DISTRIBUIDOS\upcdsd2012m2-grupo4\Fuentes\Ventas\Ventas.Web\obj\Debug\ResolveAssemblyReference.cache
 C:\Users\Belen\Desktop\UPC-EPE\201200\DESARROLLO DE SISTEMAS DISTRIBUIDOS\upcdsd2012m2-grupo4\Fuentes\Ventas\Ventas.Web\obj\Debug\Ventas.Web.dll
 C:\Users\Belen\Desktop\UPC-EPE\201200\DESARROLLO DE SISTEMAS DISTRIBUIDOS\upcdsd2012m2-grupo4\Fuentes\Ventas\Ventas.Web\obj\Debug\Ventas.Web.pdb
+C:\upcdsd2012m2-grupo4\Fuentes\Ventas\Ventas.Web\bin\Ventas.Web.dll
+C:\upcdsd2012m2-grupo4\Fuentes\Ventas\Ventas.Web\bin\Ventas.Web.pdb
+C:\upcdsd2012m2-grupo4\Fuentes\Ventas\Ventas.Web\bin\TimeSheet.BE.dll
+C:\upcdsd2012m2-grupo4\Fuentes\Ventas\Ventas.Web\bin\Ventas.BL.dll
+C:\upcdsd2012m2-grupo4\Fuentes\Ventas\Ventas.Web\bin\Ventas.DAL.dll
+C:\upcdsd2012m2-grupo4\Fuentes\Ventas\Ventas.Web\bin\EntityFramework.dll
+C:\upcdsd2012m2-grupo4\Fuentes\Ventas\Ventas.Web\bin\TimeSheet.BE.pdb
+C:\upcdsd2012m2-grupo4\Fuentes\Ventas\Ventas.Web\bin\Ventas.BL.pdb
+C:\upcdsd2012m2-grupo4\Fuentes\Ventas\Ventas.Web\bin\Ventas.DAL.pdb
+C:\upcdsd2012m2-grupo4\Fuentes\Ventas\Ventas.Web\bin\EntityFramework.xml
+C:\upcdsd2012m2-grupo4\Fuentes\Ventas\Ventas.Web\obj\Debug\ResolveAssemblyReference.cache
+C:\upcdsd2012m2-grupo4\Fuentes\Ventas\Ventas.Web\obj\Debug\Ventas.Web.dll
+C:\upcdsd2012m2-grupo4\Fuentes\Ventas\Ventas.Web\obj\Debug\Ventas.Web.pdb

@@ -17,11 +17,13 @@ namespace Ventas.DAL.EF
             Database.SetInitializer<EFContext>(null);
         }
 
-        public DbSet<TipoPauta> TipoPauta { get; set; } 
+        public DbSet<TipoPauta> TipoPauta { get; set; }
+        public DbSet<Empresa> Empresa { get; set; }
 
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
         {  
-            modelBuilder.Configurations.Add(new TipoPautaMapping()); 
+            modelBuilder.Configurations.Add(new TipoPautaMapping());
+            modelBuilder.Configurations.Add(new EmpresaMapping()); 
             base.OnModelCreating(modelBuilder);
         }
     }

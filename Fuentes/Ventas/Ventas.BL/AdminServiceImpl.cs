@@ -12,7 +12,8 @@ namespace Ventas.BL
     {
         #region Dependencias
 
-        ITipoPautaDAO tipoPautaDAO = new TipoPautaDAO(); 
+        ITipoPautaDAO tipoPautaDAO = new TipoPautaDAO();
+        IEmpresaDAO empresaDAO = new EmpresaDAO();
 
         #endregion
 
@@ -57,45 +58,49 @@ namespace Ventas.BL
 
         #endregion
 
-
-
-
-
         #region "Empresa"
 
         public ICollection<Empresa> ListarEmpresa()
         {
-            return tipoPautaDAO.ListarTodos();
+            return empresaDAO.ListarTodos();
         }
 
-        public TipoPauta RegistrarTipoPauta(int codigoTipoPauta, string nombre, string estado)
+        public Empresa RegistrarEmpresa(int codigoEmpresa, string RUC, string nombrecomercial, string direccion, string telefono, string estado)
         {
-            TipoPauta beTipoPauta = new TipoPauta();
-            beTipoPauta.Descripcion = nombre;
-            beTipoPauta.Estado = estado;
-            return tipoPautaDAO.Crear(beTipoPauta);
+            Empresa beEmpresa = new Empresa();
+            beEmpresa.RUC = RUC;
+            beEmpresa.nombrecomercial = nombrecomercial;
+            beEmpresa.direccion = direccion;
+            beEmpresa.telefono = telefono;
+            beEmpresa.Estado = estado;
+
+            return empresaDAO.Crear(beEmpresa);
         }
 
-        public TipoPauta ObtenerTipoPauta(int codigoTipoPauta)
+        public Empresa ObtenerEmpresa(int codigoEmpresa)
         {
-            return tipoPautaDAO.Obtener(codigoTipoPauta);
+            return empresaDAO.Obtener(codigoEmpresa);
         }
 
-        public TipoPauta ModificarTipoPauta(int codigoTipoPauta, string nombre, string estado)
+        public Empresa ModificarEmpresa(int codigoEmpresa, string RUC, string nombrecomercial, string direccion, string telefono, string estado)
         {
-            TipoPauta beTipoPauta = tipoPautaDAO.Obtener(codigoTipoPauta);
-            beTipoPauta.Descripcion = nombre;
-            beTipoPauta.Estado = estado;
-            return tipoPautaDAO.Modificar(beTipoPauta);
+            Empresa beEmpresa = new Empresa();
+            beEmpresa.RUC = RUC;
+            beEmpresa.nombrecomercial = nombrecomercial;
+            beEmpresa.direccion = direccion;
+            beEmpresa.telefono = telefono;
+            beEmpresa.Estado = estado;
+
+            return empresaDAO.Modificar(beEmpresa);
         }
 
-        public void EliminarTipoPauta(int codigoTipoPauta)
+        public void EliminarEmpresa(int codigoEmpresa)
         {
-            TipoPauta beTipoPauta = tipoPautaDAO.Obtener(codigoTipoPauta);
-            tipoPautaDAO.Eliminar(beTipoPauta);
+            Empresa beEmpresa = empresaDAO.Obtener(codigoEmpresa);
+            empresaDAO.Eliminar(beEmpresa);
         }
 
-        public ICollection<TipoPauta> ListarTipoPauta(int codigoTipoPauta)
+        public ICollection<Empresa> ListarEmpresa(int codigoEmpresa)
         {
             throw new NotImplementedException();
         }

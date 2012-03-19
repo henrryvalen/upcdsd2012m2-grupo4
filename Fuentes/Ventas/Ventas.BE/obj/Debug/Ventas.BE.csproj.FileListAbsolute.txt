@@ -13,3 +13,8 @@ C:\Users\Belen\Desktop\UPC-EPE\201200\DESARROLLO DE SISTEMAS DISTRIBUIDOS\upcdsd
 C:\Users\Belen\Desktop\UPC-EPE\201200\DESARROLLO DE SISTEMAS DISTRIBUIDOS\upcdsd2012m2-grupo4\Fuentes\Ventas\Ventas.BE\obj\Debug\ResolveAssemblyReference.cache
 C:\Users\Belen\Desktop\UPC-EPE\201200\DESARROLLO DE SISTEMAS DISTRIBUIDOS\upcdsd2012m2-grupo4\Fuentes\Ventas\Ventas.BE\obj\Debug\TimeSheet.BE.dll
 C:\Users\Belen\Desktop\UPC-EPE\201200\DESARROLLO DE SISTEMAS DISTRIBUIDOS\upcdsd2012m2-grupo4\Fuentes\Ventas\Ventas.BE\obj\Debug\TimeSheet.BE.pdb
+C:\upcdsd2012m2-grupo4\Fuentes\Ventas\Ventas.BE\bin\Debug\TimeSheet.BE.dll
+C:\upcdsd2012m2-grupo4\Fuentes\Ventas\Ventas.BE\bin\Debug\TimeSheet.BE.pdb
+C:\upcdsd2012m2-grupo4\Fuentes\Ventas\Ventas.BE\obj\Debug\ResolveAssemblyReference.cache
+C:\upcdsd2012m2-grupo4\Fuentes\Ventas\Ventas.BE\obj\Debug\TimeSheet.BE.dll
+C:\upcdsd2012m2-grupo4\Fuentes\Ventas\Ventas.BE\obj\Debug\TimeSheet.BE.pdb

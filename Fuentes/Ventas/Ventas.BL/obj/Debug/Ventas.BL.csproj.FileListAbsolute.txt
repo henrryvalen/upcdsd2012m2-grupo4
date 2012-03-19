@@ -32,3 +32,14 @@ C:\Users\Belen\Desktop\UPC-EPE\201200\DESARROLLO DE SISTEMAS DISTRIBUIDOS\upcdsd
 C:\Users\Belen\Desktop\UPC-EPE\201200\DESARROLLO DE SISTEMAS DISTRIBUIDOS\upcdsd2012m2-grupo4\Fuentes\Ventas\Ventas.BL\obj\Debug\ResolveAssemblyReference.cache
 C:\Users\Belen\Desktop\UPC-EPE\201200\DESARROLLO DE SISTEMAS DISTRIBUIDOS\upcdsd2012m2-grupo4\Fuentes\Ventas\Ventas.BL\obj\Debug\Ventas.BL.dll
 C:\Users\Belen\Desktop\UPC-EPE\201200\DESARROLLO DE SISTEMAS DISTRIBUIDOS\upcdsd2012m2-grupo4\Fuentes\Ventas\Ventas.BL\obj\Debug\Ventas.BL.pdb
+C:\upcdsd2012m2-grupo4\Fuentes\Ventas\Ventas.BL\obj\Debug\ResolveAssemblyReference.cache
+C:\upcdsd2012m2-grupo4\Fuentes\Ventas\Ventas.BL\obj\Debug\Ventas.BL.dll
+C:\upcdsd2012m2-grupo4\Fuentes\Ventas\Ventas.BL\obj\Debug\Ventas.BL.pdb
+C:\upcdsd2012m2-grupo4\Fuentes\Ventas\Ventas.BL\bin\Debug\Ventas.BL.dll
+C:\upcdsd2012m2-grupo4\Fuentes\Ventas\Ventas.BL\bin\Debug\Ventas.BL.pdb
+C:\upcdsd2012m2-grupo4\Fuentes\Ventas\Ventas.BL\bin\Debug\TimeSheet.BE.dll
+C:\upcdsd2012m2-grupo4\Fuentes\Ventas\Ventas.BL\bin\Debug\Ventas.DAL.dll
+C:\upcdsd2012m2-grupo4\Fuentes\Ventas\Ventas.BL\bin\Debug\EntityFramework.dll
+C:\upcdsd2012m2-grupo4\Fuentes\Ventas\Ventas.BL\bin\Debug\TimeSheet.BE.pdb
+C:\upcdsd2012m2-grupo4\Fuentes\Ventas\Ventas.BL\bin\Debug\Ventas.DAL.pdb
+C:\upcdsd2012m2-grupo4\Fuentes\Ventas\Ventas.BL\bin\Debug\EntityFramework.xml
