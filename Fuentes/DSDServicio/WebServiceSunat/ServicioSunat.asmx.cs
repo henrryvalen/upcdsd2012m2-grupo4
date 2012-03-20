@@ -33,10 +33,12 @@ namespace WebServiceSunat
 
             Contribuyente contribuyenteObtenido = new Contribuyente();
             contribuyenteObtenido.RazonSocial = (String)resultado["razonsocial"];
+            //contribuyenteObtenido.FInscripcion = (String)resultado["finscripcion"];
 
             cn.Close();
 
             return contribuyenteObtenido.RazonSocial;
+            //return contribuyenteObtenido.FInscripcion;
 
             //if (ruc == "20100017904")
             //{
