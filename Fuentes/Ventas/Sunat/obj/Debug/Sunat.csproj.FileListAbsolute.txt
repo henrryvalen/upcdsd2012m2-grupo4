@@ -1,0 +1,7 @@
+C:\Documents and Settings\XPMUser\Mis documentos\Downloads\Ventas\Ventas\Sunat\bin\Sunat.dll
+C:\Documents and Settings\XPMUser\Mis documentos\Downloads\Ventas\Ventas\Sunat\bin\Sunat.pdb
+C:\Documents and Settings\XPMUser\Mis documentos\Downloads\Ventas\Ventas\Sunat\bin\TimeSheet.BE.dll
+C:\Documents and Settings\XPMUser\Mis documentos\Downloads\Ventas\Ventas\Sunat\bin\TimeSheet.BE.pdb
+C:\Documents and Settings\XPMUser\Mis documentos\Downloads\Ventas\Ventas\Sunat\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\XPMUser\Mis documentos\Downloads\Ventas\Ventas\Sunat\obj\Debug\Sunat.dll
+C:\Documents and Settings\XPMUser\Mis documentos\Downloads\Ventas\Ventas\Sunat\obj\Debug\Sunat.pdb

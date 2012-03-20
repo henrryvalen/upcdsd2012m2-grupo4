@@ -1,18 +1,26 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Views/Shared/Site.Master" Inherits="System.Web.Mvc.ViewPage<Ventas.BE.Empresa>" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="TitleContent" runat="server">
-	Create
+	Crear una Empresa
 </asp:Content>
 
 <asp:Content ID="Content2" ContentPlaceHolderID="MainContent" runat="server">
 
-    <h2>Registrar Empresa</h2>
+    <h2>Crear una Empresa</h2>
 
     <% using (Html.BeginForm()) {%>
         <%: Html.ValidationSummary(true) %>
 
         <fieldset>
             <legend>Campos</legend>
+            
+            <div class="editor-label">
+                <%: Html.LabelFor(model => model.Codigo) %>
+            </div>
+            <div class="editor-field">
+                <%: Html.TextBoxFor(model => model.Codigo, new { style = "width:100px;" }) %>
+                <%: Html.ValidationMessageFor(model => model.Codigo) %>
+            </div>
             
             <div class="editor-label">
                 <%: Html.LabelFor(model => model.RUC) %>
@@ -55,7 +63,7 @@
             </div>
             
             <p>
-                <input type="submit" value="Create" />
+                <input type="submit" value="Crear" />
             </p>
         </fieldset>
 

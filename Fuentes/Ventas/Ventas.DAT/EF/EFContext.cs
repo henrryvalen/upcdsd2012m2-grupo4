@@ -28,8 +28,8 @@ namespace Ventas.DAL.EF
             modelBuilder.Configurations.Add(new TipoPautaMapping());
             modelBuilder.Configurations.Add(new EmpresaMapping());
             modelBuilder.Configurations.Add(new UsuarioMapping());
-            modelBuilder.Configurations.Add(new RadioMapping());
             modelBuilder.Configurations.Add(new TarifaMapping());
+            modelBuilder.Configurations.Add(new RadioMapping());
             base.OnModelCreating(modelBuilder);
         }
     }

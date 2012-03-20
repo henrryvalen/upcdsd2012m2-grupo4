@@ -49,6 +49,7 @@ namespace Ventas.Web.Controllers
             }
         }
 
+
         public ActionResult Edit(int id)
         {
             TipoPauta modelo = AdminService.ObtenerTipoPauta(id);
@@ -90,6 +91,7 @@ namespace Ventas.Web.Controllers
                 return View();
             }
         }
+
 
         #region "Metodos Utiles"
 

@@ -6,6 +6,7 @@ using System.Web.Mvc;
 using Ventas.BL;
 using Ventas.BE;
 using System.ComponentModel.DataAnnotations;
+using Ventas.Web.Models;
 
 namespace Ventas.Web.Controllers
 {
@@ -90,6 +91,44 @@ namespace Ventas.Web.Controllers
             {
                 return View();
             }
+        }
+        
+        public ActionResult Find()
+        {
+            return View("Find");
+        }
+
+        [HttpPost]
+        public ActionResult Find(Empresa form)
+        {
+            ServicioSunat.Empresas servicio = new ServicioSunat.Empresas();
+            ICollection<ServicioSunat.Empresa> modelo = servicio.ConsultarEmpresa(form.RUC, form.nombrecomercial);
+            List<Empresa> empresas = new List<Empresa>();
+            Empresa empresa;
+            foreach (var item in modelo)
+            {
+                empresa = new Empresa();
+                empresa.RUC = item.RUC;
+                empresa.nombrecomercial = item.nombrecomercial;
+                empresa.Estado = item.Estado;
+                empresas.Add(empresa);
+            }
+            return View("FindDetail", empresas);
+        }
+
+        public ActionResult State(string RUC)
+        {
+            ServicioSunat.Empresas servicio = new ServicioSunat.Empresas();
+            ServicioSunat.Empresa modelo = servicio.ObtenerEmpresa(RUC);
+            Empresa empresa = new Empresa();
+            empresa = new Empresa();
+            empresa.Codigo = modelo.Codigo;
+            empresa.RUC = modelo.RUC;
+            empresa.nombrecomercial = modelo.nombrecomercial;
+            empresa.direccion = modelo.direccion;
+            empresa.telefono = modelo.telefono;
+            empresa.Estado = modelo.Estado;
+            return View(empresa);
         }
 
 

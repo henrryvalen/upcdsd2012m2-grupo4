@@ -23,8 +23,8 @@ C:\Users\jjimenezj\Downloads\Ventas\Ventas.BE\bin\Debug\TimeSheet.BE.pdb
 C:\Users\jjimenezj\Downloads\Ventas\Ventas.BE\obj\Debug\ResolveAssemblyReference.cache
 C:\Users\jjimenezj\Downloads\Ventas\Ventas.BE\obj\Debug\TimeSheet.BE.dll
 C:\Users\jjimenezj\Downloads\Ventas\Ventas.BE\obj\Debug\TimeSheet.BE.pdb
-C:\Users\Belen\Desktop\UPC-EPE\201200\DESARROLLO DE SISTEMAS DISTRIBUIDOS\ultima versiona\Ventas\Ventas.BE\obj\Debug\ResolveAssemblyReference.cache
-C:\Users\Belen\Desktop\UPC-EPE\201200\DESARROLLO DE SISTEMAS DISTRIBUIDOS\ultima versiona\Ventas\Ventas.BE\obj\Debug\TimeSheet.BE.dll
-C:\Users\Belen\Desktop\UPC-EPE\201200\DESARROLLO DE SISTEMAS DISTRIBUIDOS\ultima versiona\Ventas\Ventas.BE\obj\Debug\TimeSheet.BE.pdb
-C:\Users\Belen\Desktop\UPC-EPE\201200\DESARROLLO DE SISTEMAS DISTRIBUIDOS\ultima versiona\Ventas\Ventas.BE\bin\Debug\TimeSheet.BE.dll
-C:\Users\Belen\Desktop\UPC-EPE\201200\DESARROLLO DE SISTEMAS DISTRIBUIDOS\ultima versiona\Ventas\Ventas.BE\bin\Debug\TimeSheet.BE.pdb
+C:\Documents and Settings\XPMUser\Mis documentos\Downloads\Ventas\Ventas\Ventas.BE\bin\Debug\TimeSheet.BE.dll
+C:\Documents and Settings\XPMUser\Mis documentos\Downloads\Ventas\Ventas\Ventas.BE\bin\Debug\TimeSheet.BE.pdb
+C:\Documents and Settings\XPMUser\Mis documentos\Downloads\Ventas\Ventas\Ventas.BE\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\XPMUser\Mis documentos\Downloads\Ventas\Ventas\Ventas.BE\obj\Debug\TimeSheet.BE.dll
+C:\Documents and Settings\XPMUser\Mis documentos\Downloads\Ventas\Ventas\Ventas.BE\obj\Debug\TimeSheet.BE.pdb

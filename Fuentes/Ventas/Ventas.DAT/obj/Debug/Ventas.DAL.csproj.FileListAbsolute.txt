@@ -41,12 +41,12 @@ C:\Users\jjimenezj\Downloads\Ventas\Ventas.DAT\bin\Debug\TimeSheet.BE.pdb
 C:\Users\jjimenezj\Downloads\Ventas\Ventas.DAT\obj\Debug\ResolveAssemblyReference.cache
 C:\Users\jjimenezj\Downloads\Ventas\Ventas.DAT\obj\Debug\Ventas.DAL.dll
 C:\Users\jjimenezj\Downloads\Ventas\Ventas.DAT\obj\Debug\Ventas.DAL.pdb
-C:\Users\Belen\Desktop\UPC-EPE\201200\DESARROLLO DE SISTEMAS DISTRIBUIDOS\ultima versiona\Ventas\Ventas.DAT\bin\Debug\Ventas.DAL.dll
-C:\Users\Belen\Desktop\UPC-EPE\201200\DESARROLLO DE SISTEMAS DISTRIBUIDOS\ultima versiona\Ventas\Ventas.DAT\bin\Debug\Ventas.DAL.pdb
-C:\Users\Belen\Desktop\UPC-EPE\201200\DESARROLLO DE SISTEMAS DISTRIBUIDOS\ultima versiona\Ventas\Ventas.DAT\bin\Debug\EntityFramework.dll
-C:\Users\Belen\Desktop\UPC-EPE\201200\DESARROLLO DE SISTEMAS DISTRIBUIDOS\ultima versiona\Ventas\Ventas.DAT\bin\Debug\TimeSheet.BE.dll
-C:\Users\Belen\Desktop\UPC-EPE\201200\DESARROLLO DE SISTEMAS DISTRIBUIDOS\ultima versiona\Ventas\Ventas.DAT\bin\Debug\TimeSheet.BE.pdb
-C:\Users\Belen\Desktop\UPC-EPE\201200\DESARROLLO DE SISTEMAS DISTRIBUIDOS\ultima versiona\Ventas\Ventas.DAT\bin\Debug\EntityFramework.xml
-C:\Users\Belen\Desktop\UPC-EPE\201200\DESARROLLO DE SISTEMAS DISTRIBUIDOS\ultima versiona\Ventas\Ventas.DAT\obj\Debug\ResolveAssemblyReference.cache
-C:\Users\Belen\Desktop\UPC-EPE\201200\DESARROLLO DE SISTEMAS DISTRIBUIDOS\ultima versiona\Ventas\Ventas.DAT\obj\Debug\Ventas.DAL.dll
-C:\Users\Belen\Desktop\UPC-EPE\201200\DESARROLLO DE SISTEMAS DISTRIBUIDOS\ultima versiona\Ventas\Ventas.DAT\obj\Debug\Ventas.DAL.pdb
+C:\Documents and Settings\XPMUser\Mis documentos\Downloads\Ventas\Ventas\Ventas.DAT\bin\Debug\Ventas.DAL.dll
+C:\Documents and Settings\XPMUser\Mis documentos\Downloads\Ventas\Ventas\Ventas.DAT\bin\Debug\Ventas.DAL.pdb
+C:\Documents and Settings\XPMUser\Mis documentos\Downloads\Ventas\Ventas\Ventas.DAT\bin\Debug\EntityFramework.dll
+C:\Documents and Settings\XPMUser\Mis documentos\Downloads\Ventas\Ventas\Ventas.DAT\bin\Debug\TimeSheet.BE.dll
+C:\Documents and Settings\XPMUser\Mis documentos\Downloads\Ventas\Ventas\Ventas.DAT\bin\Debug\TimeSheet.BE.pdb
+C:\Documents and Settings\XPMUser\Mis documentos\Downloads\Ventas\Ventas\Ventas.DAT\bin\Debug\EntityFramework.xml
+C:\Documents and Settings\XPMUser\Mis documentos\Downloads\Ventas\Ventas\Ventas.DAT\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\XPMUser\Mis documentos\Downloads\Ventas\Ventas\Ventas.DAT\obj\Debug\Ventas.DAL.dll
+C:\Documents and Settings\XPMUser\Mis documentos\Downloads\Ventas\Ventas\Ventas.DAT\obj\Debug\Ventas.DAL.pdb

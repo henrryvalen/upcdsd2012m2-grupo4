@@ -87,8 +87,7 @@ namespace Ventas.BL
 
         public Empresa ModificarEmpresa(int codigoEmpresa, string RUC, string nombrecomercial, string direccion, string telefono, string estado)
         {
-           
-            Empresa beEmpresa = empresaDAO.Obtener(codigoEmpresa);
+            Empresa beEmpresa = new Empresa();
             beEmpresa.RUC = RUC;
             beEmpresa.nombrecomercial = nombrecomercial;
             beEmpresa.direccion = direccion;
@@ -107,7 +106,7 @@ namespace Ventas.BL
         public ICollection<Empresa> ListarEmpresa(int codigoEmpresa)
         {
             throw new NotImplementedException();
-        }
+        } 
 
         #endregion
 

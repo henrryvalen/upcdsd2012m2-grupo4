@@ -26,7 +26,7 @@ namespace Ventas.BL
         Empresa RegistrarEmpresa(int codigoEmpresa, string RUC, string nombrecomercial, string direccion, string telefono, string Estado);
         Empresa ModificarEmpresa(int codigoEmpresa, string RUC, string nombrecomercial, string direccion, string telefono, string Estado);
         void EliminarEmpresa(int codigoEmpresa);
-        ICollection<Empresa> ListarEmpresa(int codigoEmpresa);
+        ICollection<Empresa> ListarEmpresa(int codigoEmpresa); 
 
         #endregion
 
@@ -46,11 +46,10 @@ namespace Ventas.BL
 
         #endregion
 
-        #region Tarifa
+        #region Radio
 
         ICollection<Radio> ListarRadio();
 
         #endregion
-
     }
 }

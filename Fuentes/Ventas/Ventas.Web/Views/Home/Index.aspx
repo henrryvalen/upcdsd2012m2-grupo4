@@ -8,6 +8,5 @@
     <h2><%: ViewData["Message"] %></h2>
     <p>
         Bienvenidos, Usted podra registrar las ventas de pautas publicitarias. También, podrá consultar el estado de las empresas.
-        <a href="http://asp.net/mvc" title="ASP.NET MVC Website">http://asp.net/mvc</a>.
     </p>
 </asp:Content>

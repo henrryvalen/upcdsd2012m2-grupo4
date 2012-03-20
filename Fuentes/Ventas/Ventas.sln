@@ -21,6 +21,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ventas.DAL", "Ventas.DAT\Ve
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ventas.Web", "Ventas.Web\Ventas.Web.csproj", "{DE5BF524-9D2B-4CBE-82AA-E31DA946678E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sunat", "Sunat\Sunat.csproj", "{910FFC35-7A88-47B5-8647-29CF26FF5486}"
+EndProject
 Global
 	GlobalSection(TestCaseManagementSettings) = postSolution
 		CategoryFile = Ventas.vsmdi
@@ -46,6 +48,10 @@ Global
 		{DE5BF524-9D2B-4CBE-82AA-E31DA946678E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DE5BF524-9D2B-4CBE-82AA-E31DA946678E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DE5BF524-9D2B-4CBE-82AA-E31DA946678E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{910FFC35-7A88-47B5-8647-29CF26FF5486}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{910FFC35-7A88-47B5-8647-29CF26FF5486}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{910FFC35-7A88-47B5-8647-29CF26FF5486}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{910FFC35-7A88-47B5-8647-29CF26FF5486}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

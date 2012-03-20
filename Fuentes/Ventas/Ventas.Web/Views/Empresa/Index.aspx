@@ -6,7 +6,11 @@
 
 <asp:Content ID="Content2" ContentPlaceHolderID="MainContent" runat="server">
 
-    <h2>Empresa</h2>
+    <h2>Empresas</h2>
+     <p>
+        <%: Html.ActionLink("Consultar Estado", "Find") %>
+        
+    </p>
     <table>
         <tr>
             <th>
@@ -60,9 +64,10 @@
             </td>
         </tr>
         <% } %>
-    </table>
+    </table> 
     <p>
         <%: Html.ActionLink("Agregar", "Create") %>
+        
     </p>
 	
 

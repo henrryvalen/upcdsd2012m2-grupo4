@@ -61,16 +61,16 @@ C:\Users\jjimenezj\Downloads\Ventas\Ventas.Web\bin\Ventas.DAL.pdb
 C:\Users\jjimenezj\Downloads\Ventas\Ventas.Web\obj\Debug\ResolveAssemblyReference.cache
 C:\Users\jjimenezj\Downloads\Ventas\Ventas.Web\obj\Debug\Ventas.Web.dll
 C:\Users\jjimenezj\Downloads\Ventas\Ventas.Web\obj\Debug\Ventas.Web.pdb
-C:\Users\Belen\Desktop\UPC-EPE\201200\DESARROLLO DE SISTEMAS DISTRIBUIDOS\ultima versiona\Ventas\Ventas.Web\bin\Ventas.Web.dll
-C:\Users\Belen\Desktop\UPC-EPE\201200\DESARROLLO DE SISTEMAS DISTRIBUIDOS\ultima versiona\Ventas\Ventas.Web\bin\Ventas.Web.pdb
-C:\Users\Belen\Desktop\UPC-EPE\201200\DESARROLLO DE SISTEMAS DISTRIBUIDOS\ultima versiona\Ventas\Ventas.Web\bin\TimeSheet.BE.dll
-C:\Users\Belen\Desktop\UPC-EPE\201200\DESARROLLO DE SISTEMAS DISTRIBUIDOS\ultima versiona\Ventas\Ventas.Web\bin\Ventas.BL.dll
-C:\Users\Belen\Desktop\UPC-EPE\201200\DESARROLLO DE SISTEMAS DISTRIBUIDOS\ultima versiona\Ventas\Ventas.Web\bin\Ventas.DAL.dll
-C:\Users\Belen\Desktop\UPC-EPE\201200\DESARROLLO DE SISTEMAS DISTRIBUIDOS\ultima versiona\Ventas\Ventas.Web\bin\EntityFramework.dll
-C:\Users\Belen\Desktop\UPC-EPE\201200\DESARROLLO DE SISTEMAS DISTRIBUIDOS\ultima versiona\Ventas\Ventas.Web\bin\TimeSheet.BE.pdb
-C:\Users\Belen\Desktop\UPC-EPE\201200\DESARROLLO DE SISTEMAS DISTRIBUIDOS\ultima versiona\Ventas\Ventas.Web\bin\Ventas.BL.pdb
-C:\Users\Belen\Desktop\UPC-EPE\201200\DESARROLLO DE SISTEMAS DISTRIBUIDOS\ultima versiona\Ventas\Ventas.Web\bin\Ventas.DAL.pdb
-C:\Users\Belen\Desktop\UPC-EPE\201200\DESARROLLO DE SISTEMAS DISTRIBUIDOS\ultima versiona\Ventas\Ventas.Web\bin\EntityFramework.xml
-C:\Users\Belen\Desktop\UPC-EPE\201200\DESARROLLO DE SISTEMAS DISTRIBUIDOS\ultima versiona\Ventas\Ventas.Web\obj\Debug\ResolveAssemblyReference.cache
-C:\Users\Belen\Desktop\UPC-EPE\201200\DESARROLLO DE SISTEMAS DISTRIBUIDOS\ultima versiona\Ventas\Ventas.Web\obj\Debug\Ventas.Web.dll
-C:\Users\Belen\Desktop\UPC-EPE\201200\DESARROLLO DE SISTEMAS DISTRIBUIDOS\ultima versiona\Ventas\Ventas.Web\obj\Debug\Ventas.Web.pdb
+C:\Documents and Settings\XPMUser\Mis documentos\Downloads\Ventas\Ventas\Ventas.Web\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\XPMUser\Mis documentos\Downloads\Ventas\Ventas\Ventas.Web\bin\Ventas.Web.dll
+C:\Documents and Settings\XPMUser\Mis documentos\Downloads\Ventas\Ventas\Ventas.Web\bin\Ventas.Web.pdb
+C:\Documents and Settings\XPMUser\Mis documentos\Downloads\Ventas\Ventas\Ventas.Web\bin\TimeSheet.BE.dll
+C:\Documents and Settings\XPMUser\Mis documentos\Downloads\Ventas\Ventas\Ventas.Web\bin\Ventas.BL.dll
+C:\Documents and Settings\XPMUser\Mis documentos\Downloads\Ventas\Ventas\Ventas.Web\bin\Ventas.DAL.dll
+C:\Documents and Settings\XPMUser\Mis documentos\Downloads\Ventas\Ventas\Ventas.Web\bin\EntityFramework.dll
+C:\Documents and Settings\XPMUser\Mis documentos\Downloads\Ventas\Ventas\Ventas.Web\bin\TimeSheet.BE.pdb
+C:\Documents and Settings\XPMUser\Mis documentos\Downloads\Ventas\Ventas\Ventas.Web\bin\Ventas.BL.pdb
+C:\Documents and Settings\XPMUser\Mis documentos\Downloads\Ventas\Ventas\Ventas.Web\bin\Ventas.DAL.pdb
+C:\Documents and Settings\XPMUser\Mis documentos\Downloads\Ventas\Ventas\Ventas.Web\bin\EntityFramework.xml
+C:\Documents and Settings\XPMUser\Mis documentos\Downloads\Ventas\Ventas\Ventas.Web\obj\Debug\Ventas.Web.dll
+C:\Documents and Settings\XPMUser\Mis documentos\Downloads\Ventas\Ventas\Ventas.Web\obj\Debug\Ventas.Web.pdb
