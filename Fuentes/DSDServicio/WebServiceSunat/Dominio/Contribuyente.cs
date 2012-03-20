@@ -3,9 +3,10 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 
+
 namespace WebServiceSunat.Dominio
 {
-    public class Contribuyente
+    public class Contribuyente:Object
     {
         public string Ruc { get; set; }
         public string RazonSocial { get; set; }
@@ -15,5 +16,9 @@ namespace WebServiceSunat.Dominio
         public string Direccion { get; set; }
         public string Telefono { get; set; }
         public string Sistema { get; set; }
+
+       
     }
+
+
 }

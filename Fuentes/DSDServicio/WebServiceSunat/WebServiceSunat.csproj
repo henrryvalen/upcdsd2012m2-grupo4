@@ -60,6 +60,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Dominio\Contribuyente.cs" />
+    <Compile Include="Persistencia\DTOContribuyente.cs" />
     <Compile Include="ServicioSunat.asmx.cs">
       <DependentUpon>ServicioSunat.asmx</DependentUpon>
       <SubType>Component</SubType>
@@ -68,7 +69,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-    <Folder Include="Persistencia\" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" />
