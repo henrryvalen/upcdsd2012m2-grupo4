@@ -3,3 +3,8 @@ G:\Jonathan\UPC\6to Ciclo\Desarrollo de Sistemas Distribuidos\DSD_Parcial\DSDPar
 G:\Jonathan\UPC\6to Ciclo\Desarrollo de Sistemas Distribuidos\DSD_Parcial\DSDParcial\WebServiceSunat\obj\Debug\ResolveAssemblyReference.cache
 G:\Jonathan\UPC\6to Ciclo\Desarrollo de Sistemas Distribuidos\DSD_Parcial\DSDParcial\WebServiceSunat\obj\Debug\WebServiceSunat.dll
 G:\Jonathan\UPC\6to Ciclo\Desarrollo de Sistemas Distribuidos\DSD_Parcial\DSDParcial\WebServiceSunat\obj\Debug\WebServiceSunat.pdb
+G:\Jonathan\UPC\6to Ciclo\Desarrollo de Sistemas Distribuidos\upcdsd2012m2-grupo4\Fuentes\DSDServicio\WebServiceSunat\bin\WebServiceSunat.dll
+G:\Jonathan\UPC\6to Ciclo\Desarrollo de Sistemas Distribuidos\upcdsd2012m2-grupo4\Fuentes\DSDServicio\WebServiceSunat\bin\WebServiceSunat.pdb
+G:\Jonathan\UPC\6to Ciclo\Desarrollo de Sistemas Distribuidos\upcdsd2012m2-grupo4\Fuentes\DSDServicio\WebServiceSunat\obj\Debug\ResolveAssemblyReference.cache
+G:\Jonathan\UPC\6to Ciclo\Desarrollo de Sistemas Distribuidos\upcdsd2012m2-grupo4\Fuentes\DSDServicio\WebServiceSunat\obj\Debug\WebServiceSunat.dll
+G:\Jonathan\UPC\6to Ciclo\Desarrollo de Sistemas Distribuidos\upcdsd2012m2-grupo4\Fuentes\DSDServicio\WebServiceSunat\obj\Debug\WebServiceSunat.pdb

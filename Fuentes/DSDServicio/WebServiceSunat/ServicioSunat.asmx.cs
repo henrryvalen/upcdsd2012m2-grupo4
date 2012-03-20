@@ -5,6 +5,7 @@ using System.Web;
 using System.Web.Services;
 using System.Data.SqlClient;
 using System.Data;
+using WebServiceSunat.Dominio;
 
 namespace WebServiceSunat
 {
@@ -21,15 +22,26 @@ namespace WebServiceSunat
         [WebMethod]
         public string ConsultaRuc(string ruc)
         {
-            String cadena = "Data Source=(local);Initial Catalog=Clinica;Integrated Security=True";
-            SqlConnection Cn = new SqlConnection();
+            String cadena = "Data Source=(local);Initial Catalog=SUNAT;Integrated Security=True";
+            SqlConnection cn = new SqlConnection(cadena);
+            cn.Open();
+            String query = "select * from contribuyentes where ruc='" + ruc + "'";
+            SqlCommand comando = new SqlCommand(query, cn);
+            SqlDataReader resultado = comando.ExecuteReader(); // Ejecuta y no devuelve valor
+            // Capturar el resultado
+            resultado.Read();
 
-            String resultado = "";
-            if (ruc == "20100017904")
-            {
-                resultado = "EL PACIFICO SEGUROS Y REASEGUROS";
-            }
-            return resultado;
+            Contribuyente contribuyenteObtenido = new Contribuyente();
+            contribuyenteObtenido.RazonSocial = (String)resultado["razonsocial"];
+
+            cn.Close();
+
+            return contribuyenteObtenido.RazonSocial;
+
+            //if (ruc == "20100017904")
+            //{
+            //    resultado = "EL PACIFICO SEGUROS Y REASEGUROS";
+            //}
         }
     }
 }
