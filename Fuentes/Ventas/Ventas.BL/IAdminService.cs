@@ -30,5 +30,27 @@ namespace Ventas.BL
 
         #endregion
 
+        #region Usuario
+
+        Usuario ValidarUsuario(string usuarioUser, string usuarioPassword);
+
+        #endregion
+
+        #region Tarifa
+
+        ICollection<Tarifa> ListarTarifa();
+        Tarifa ObtenerTarifa(int codigoTarifa);
+        Tarifa RegistrarTarifa(int codigoTarifa, int codigoRadio, int CodigoTipoPauta, decimal? precio, string bloque, string estado);
+        Tarifa ModificarTarifa(int codigoTarifa, int codigoRadio, int CodigoTipoPauta, decimal? precio, string bloque, string estado);
+        void EliminarTarifa(int codigoTarifa);
+
+        #endregion
+
+        #region Tarifa
+
+        ICollection<Radio> ListarRadio();
+
+        #endregion
+
     }
 }

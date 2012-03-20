@@ -9,6 +9,7 @@ using System.ComponentModel.DataAnnotations;
 
 namespace Ventas.Web.Controllers
 {
+    [AuthorizeVentas]
     public class TipoPautaController : Controller
     {
         #region
@@ -47,7 +48,6 @@ namespace Ventas.Web.Controllers
                 return View();
             }
         }
-
 
         public ActionResult Edit(int id)
         {
@@ -90,7 +90,6 @@ namespace Ventas.Web.Controllers
                 return View();
             }
         }
-
 
         #region "Metodos Utiles"
 

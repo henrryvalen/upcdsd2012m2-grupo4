@@ -19,11 +19,17 @@ namespace Ventas.DAL.EF
 
         public DbSet<TipoPauta> TipoPauta { get; set; }
         public DbSet<Empresa> Empresa { get; set; }
+        public DbSet<Usuario> Usuario { get; set; }
+        public DbSet<Tarifa> Tarifa { get; set; }
+        public DbSet<Radio> Radio { get; set; }
 
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
         {  
             modelBuilder.Configurations.Add(new TipoPautaMapping());
-            modelBuilder.Configurations.Add(new EmpresaMapping()); 
+            modelBuilder.Configurations.Add(new EmpresaMapping());
+            modelBuilder.Configurations.Add(new UsuarioMapping());
+            modelBuilder.Configurations.Add(new RadioMapping());
+            modelBuilder.Configurations.Add(new TarifaMapping());
             base.OnModelCreating(modelBuilder);
         }
     }

@@ -49,12 +49,21 @@
     <Compile Include="ConexionUtil.cs" />
     <Compile Include="EF\EmpresaDAO.cs" />
     <Compile Include="EF\ORM\EmpresaMapping.cs" />
+    <Compile Include="EF\ORM\RadioMapping.cs" />
+    <Compile Include="EF\ORM\TarifaMapping.cs" />
     <Compile Include="EF\ORM\TipoPautaMapping.cs" />
+    <Compile Include="EF\ORM\UsuarioMapping.cs" />
+    <Compile Include="EF\RadioDAO.cs" />
+    <Compile Include="EF\TarifaDAO.cs" />
     <Compile Include="EF\TipoPautaDAO.cs" />
+    <Compile Include="EF\UsuarioDAO.cs" />
     <Compile Include="IEmpresaDAO.cs" />
+    <Compile Include="IRadioDAO.cs" />
+    <Compile Include="ITarifaDAO.cs" />
     <Compile Include="ITipoPautaDAO.cs" />
     <Compile Include="EF\EFContext.cs" />
     <Compile Include="IBaseDAO.cs" />
+    <Compile Include="IUsuarioDAO.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
