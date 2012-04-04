@@ -2,10 +2,7 @@ USE [master]
 GO
 
 /****** Object:  Database [Ventas]    Script Date: 03/20/2012 16:18:27 ******/
-CREATE DATABASE [Ventas] ON  PRIMARY 
-( NAME = N'Ventas', FILENAME = N'C:\BDs\Ventas.mdf' , SIZE = 3072KB , MAXSIZE = UNLIMITED, FILEGROWTH = 1024KB )
- LOG ON 
-( NAME = N'Ventas_log', FILENAME = N'C:\BDs\Ventas_log.ldf' , SIZE = 1024KB , MAXSIZE = 2048GB , FILEGROWTH = 10%)
+CREATE DATABASE [Ventas] 
 GO
 
 ALTER DATABASE [Ventas] SET COMPATIBILITY_LEVEL = 100

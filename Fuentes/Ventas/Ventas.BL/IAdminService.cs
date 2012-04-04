@@ -51,5 +51,13 @@ namespace Ventas.BL
         ICollection<Radio> ListarRadio();
 
         #endregion
+
+        #region "VentaPauta"
+        ICollection<VentaPauta> ListarVentaPauta();
+        VentaPauta ObtenerTipoPauta(int codigoVentaPauta);
+        VentaPauta RegistrarTipoPauta(int Codigo, int radioCodigo, string ventaNombreVendedor, string ventaDescripcionProducto, string empresaRUC, int tipoPautaCodigo, string ventaNumeroDias, int ventaPrioridad,
+        int ventaTipoTransaccion, int ventaIGV, int ventaTipoOrden, decimal ventaImporteTotal, decimal ventaMontoTotal, int ventaTipoPago, DateTime ventaFechaCreacion, string ventaUsuarioCreacion, string ventaEstado);
+        VentaPauta CancelarVentaPauta(int codigoVentaPauta, string ventaUsuarioModif, DateTime ventaFechaModif);
+        #endregion
     }
 }

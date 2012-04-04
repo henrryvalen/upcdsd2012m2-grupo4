@@ -76,6 +76,7 @@
     <Compile Include="Controllers\SeguridadController.cs" />
     <Compile Include="Controllers\TarifaController.cs" />
     <Compile Include="Controllers\TipoPautaController.cs" />
+    <Compile Include="Controllers\VentaPautaController.cs" />
     <Compile Include="Models\LogOnModel.cs" />
     <Compile Include="Properties\Settings.Designer.cs">
       <AutoGen>True</AutoGen>
@@ -135,6 +136,7 @@
       <DependentUpon>Reference.map</DependentUpon>
     </None>
     <None Include="Web References\ServicioSunat\Empresas.disco" />
+    <Content Include="Views\VentaPauta\Index.aspx" />
     <Content Include="Web.config">
       <SubType>Designer</SubType>
     </Content>

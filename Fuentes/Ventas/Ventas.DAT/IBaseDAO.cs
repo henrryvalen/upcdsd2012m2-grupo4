@@ -7,6 +7,7 @@ namespace Ventas.DAL
         Entidad Crear(Entidad entidad);
         Entidad Obtener(Id id);
         Entidad Modificar(Entidad entidad);
+        //Entidad CancelarVentaPauta(Entidad entidad);
         void Eliminar(Entidad entidad);
         ICollection<Entidad> ListarTodos();
     }

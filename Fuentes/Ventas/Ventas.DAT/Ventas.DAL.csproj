@@ -48,11 +48,14 @@
   <ItemGroup>
     <Compile Include="ConexionUtil.cs" />
     <Compile Include="EF\EmpresaDAO.cs" />
+    <Compile Include="EF\VentaPautaDAO.cs" />
+    <Compile Include="IVentaPautaDAO.cs" />
     <Compile Include="EF\ORM\EmpresaMapping.cs" />
     <Compile Include="EF\ORM\RadioMapping.cs" />
     <Compile Include="EF\ORM\TarifaMapping.cs" />
     <Compile Include="EF\ORM\TipoPautaMapping.cs" />
     <Compile Include="EF\ORM\UsuarioMapping.cs" />
+    <Compile Include="EF\ORM\VentaPautaMapping.cs" />
     <Compile Include="EF\RadioDAO.cs" />
     <Compile Include="EF\TarifaDAO.cs" />
     <Compile Include="EF\TipoPautaDAO.cs" />

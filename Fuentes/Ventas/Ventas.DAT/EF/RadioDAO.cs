@@ -36,5 +36,10 @@ namespace Ventas.DAL.EF
                 return resultado.ToList();
             }
         }
+
+        public ICollection<BE.Radio> ListarRadio(int id)
+        {
+            throw new NotImplementedException();
+        }
     }
 }

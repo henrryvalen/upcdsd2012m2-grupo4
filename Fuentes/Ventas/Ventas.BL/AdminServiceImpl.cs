@@ -17,6 +17,7 @@ namespace Ventas.BL
         IUsuarioDAO usuarioDAO = new UsuarioDAO();
         ITarifaDAO tarifaDAO = new TarifaDAO();
         IRadioDAO radioDAO = new RadioDAO();
+        IVentaPautaDAO ventaPautaDAO = new VentaPautaDAO();
 
         #endregion
 
@@ -171,6 +172,60 @@ namespace Ventas.BL
         {
             return radioDAO.ListarTodos();
         }
+
+        #endregion
+
+        #region "VentaPauta"
+
+
+        public ICollection<VentaPauta> ListarVentaPauta()
+        {
+            return ventaPautaDAO.ListarTodos();
+        }
+
+        public VentaPauta ObtenerVentaPauta(int codigoVentaPauta)
+        {
+            return ventaPautaDAO.Obtener(codigoVentaPauta);
+        }
+
+        public VentaPauta RegistrarVentaPauta(int Codigo, int radioCodigo, string ventaNombreVendedor, string ventaDescripcionProducto, string empresaRUC, int tipoPautaCodigo, string ventaNumeroDias, int ventaPrioridad,
+        int ventaTipoTransaccion, int ventaIGV, int ventaTipoOrden, decimal ventaImporteTotal, decimal ventaMontoTotal, int ventaTipoPago, DateTime ventaFechaCreacion, string ventaUsuarioCreacion, string ventaEstado)
+        {
+            VentaPauta beVentaPauta = new VentaPauta();
+
+            beVentaPauta.Codigo = Codigo;
+            beVentaPauta.ventaNombreVendedor = ventaNombreVendedor;
+            beVentaPauta.ventaDescripcionProducto = ventaDescripcionProducto;
+            beVentaPauta.empresaRUC = empresaRUC;
+            beVentaPauta.tipoPautaCodigo = tipoPautaCodigo;
+            beVentaPauta.ventaNumeroDias = ventaNumeroDias;
+            beVentaPauta.ventaPrioridad = ventaPrioridad;
+            beVentaPauta.ventaTipoTransaccion = ventaTipoTransaccion;
+            beVentaPauta.ventaIGV = ventaIGV;
+            beVentaPauta.ventaTipoOrden = ventaTipoOrden;
+            beVentaPauta.ventaImporteTotal = ventaImporteTotal;
+            beVentaPauta.ventaMontoTotal = ventaMontoTotal;
+            beVentaPauta.ventaTipoPago = ventaTipoPago;
+            beVentaPauta.ventaFechaCreacion = ventaFechaCreacion;
+            beVentaPauta.ventaUsuarioCreacion = ventaUsuarioCreacion;
+            beVentaPauta.ventaEstado = ventaEstado;
+
+            //cambiarrrrrrrrr
+
+            return ventaPautaDAO.Crear(beVentaPauta);
+        }
+
+        public VentaPauta CancelarVentaPauta(int codigoVentaPauta, string ventaUsuarioModif, DateTime ventaFechaModif)
+        {
+            VentaPauta beVentaPauta = new VentaPauta();
+            beVentaPauta.Codigo = codigoVentaPauta;
+            beVentaPauta.ventaEstado = "I";
+            beVentaPauta.ventaUsuarioModif = "ADMIN";
+            beVentaPauta.ventaFechaModif = DateTime.Now;
+            return ventaPautaDAO.CancelarVentaPauta(beVentaPauta);
+            
+        }
+
 
         #endregion
     }

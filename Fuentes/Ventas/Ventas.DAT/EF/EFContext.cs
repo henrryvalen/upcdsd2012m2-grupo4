@@ -22,6 +22,7 @@ namespace Ventas.DAL.EF
         public DbSet<Usuario> Usuario { get; set; }
         public DbSet<Tarifa> Tarifa { get; set; }
         public DbSet<Radio> Radio { get; set; }
+        public DbSet<VentaPauta> VentaPauta { get; set; }
 
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
         {  
@@ -30,6 +31,7 @@ namespace Ventas.DAL.EF
             modelBuilder.Configurations.Add(new UsuarioMapping());
             modelBuilder.Configurations.Add(new TarifaMapping());
             modelBuilder.Configurations.Add(new RadioMapping());
+            modelBuilder.Configurations.Add(new VentaPautaMapping());
             base.OnModelCreating(modelBuilder);
         }
     }
