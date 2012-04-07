@@ -194,6 +194,7 @@ namespace Ventas.BL
             VentaPauta beVentaPauta = new VentaPauta();
 
             beVentaPauta.Codigo = Codigo;
+            //beVentaPauta.radioCodigo = Radio;
             beVentaPauta.ventaNombreVendedor = ventaNombreVendedor;
             beVentaPauta.ventaDescripcionProducto = ventaDescripcionProducto;
             beVentaPauta.empresaRUC = empresaRUC;
@@ -222,8 +223,8 @@ namespace Ventas.BL
             beVentaPauta.ventaEstado = "I";
             beVentaPauta.ventaUsuarioModif = "ADMIN";
             beVentaPauta.ventaFechaModif = DateTime.Now;
-            return ventaPautaDAO.CancelarVentaPauta(beVentaPauta);
-            
+            //return ventaPautaDAO.CancelarVentaPauta(beVentaPauta);
+            return null;
         }
 
 

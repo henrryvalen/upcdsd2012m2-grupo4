@@ -63,7 +63,7 @@ namespace Ventas.Web.Controllers
         {
             try
             {
-                AdminService.CancelarVentaPauta(id, "ADMIN", DateTime.Now);
+                //AdminService.CancelarVentaPauta(id, "ADMIN", DateTime.Now);
                 return RedirectToAction("Index");
             }
             catch

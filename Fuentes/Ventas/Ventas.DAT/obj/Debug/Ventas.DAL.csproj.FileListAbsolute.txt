@@ -50,3 +50,12 @@ C:\Documents and Settings\XPMUser\Mis documentos\Downloads\Ventas\Ventas\Ventas.
 C:\Documents and Settings\XPMUser\Mis documentos\Downloads\Ventas\Ventas\Ventas.DAT\obj\Debug\ResolveAssemblyReference.cache
 C:\Documents and Settings\XPMUser\Mis documentos\Downloads\Ventas\Ventas\Ventas.DAT\obj\Debug\Ventas.DAL.dll
 C:\Documents and Settings\XPMUser\Mis documentos\Downloads\Ventas\Ventas\Ventas.DAT\obj\Debug\Ventas.DAL.pdb
+G:\Jonathan\UPC\6to Ciclo\Desarrollo de Sistemas Distribuidos\upcdsd2012m2-grupo4\Fuentes\Ventas\Ventas.DAT\bin\Debug\Ventas.DAL.dll
+G:\Jonathan\UPC\6to Ciclo\Desarrollo de Sistemas Distribuidos\upcdsd2012m2-grupo4\Fuentes\Ventas\Ventas.DAT\bin\Debug\Ventas.DAL.pdb
+G:\Jonathan\UPC\6to Ciclo\Desarrollo de Sistemas Distribuidos\upcdsd2012m2-grupo4\Fuentes\Ventas\Ventas.DAT\bin\Debug\EntityFramework.dll
+G:\Jonathan\UPC\6to Ciclo\Desarrollo de Sistemas Distribuidos\upcdsd2012m2-grupo4\Fuentes\Ventas\Ventas.DAT\bin\Debug\TimeSheet.BE.dll
+G:\Jonathan\UPC\6to Ciclo\Desarrollo de Sistemas Distribuidos\upcdsd2012m2-grupo4\Fuentes\Ventas\Ventas.DAT\bin\Debug\TimeSheet.BE.pdb
+G:\Jonathan\UPC\6to Ciclo\Desarrollo de Sistemas Distribuidos\upcdsd2012m2-grupo4\Fuentes\Ventas\Ventas.DAT\bin\Debug\EntityFramework.xml
+G:\Jonathan\UPC\6to Ciclo\Desarrollo de Sistemas Distribuidos\upcdsd2012m2-grupo4\Fuentes\Ventas\Ventas.DAT\obj\Debug\ResolveAssemblyReference.cache
+G:\Jonathan\UPC\6to Ciclo\Desarrollo de Sistemas Distribuidos\upcdsd2012m2-grupo4\Fuentes\Ventas\Ventas.DAT\obj\Debug\Ventas.DAL.dll
+G:\Jonathan\UPC\6to Ciclo\Desarrollo de Sistemas Distribuidos\upcdsd2012m2-grupo4\Fuentes\Ventas\Ventas.DAT\obj\Debug\Ventas.DAL.pdb

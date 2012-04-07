@@ -5,3 +5,10 @@ C:\Documents and Settings\XPMUser\Mis documentos\Downloads\Ventas\Ventas\Sunat\b
 C:\Documents and Settings\XPMUser\Mis documentos\Downloads\Ventas\Ventas\Sunat\obj\Debug\ResolveAssemblyReference.cache
 C:\Documents and Settings\XPMUser\Mis documentos\Downloads\Ventas\Ventas\Sunat\obj\Debug\Sunat.dll
 C:\Documents and Settings\XPMUser\Mis documentos\Downloads\Ventas\Ventas\Sunat\obj\Debug\Sunat.pdb
+G:\Jonathan\UPC\6to Ciclo\Desarrollo de Sistemas Distribuidos\upcdsd2012m2-grupo4\Fuentes\Ventas\Sunat\bin\Sunat.dll
+G:\Jonathan\UPC\6to Ciclo\Desarrollo de Sistemas Distribuidos\upcdsd2012m2-grupo4\Fuentes\Ventas\Sunat\bin\Sunat.pdb
+G:\Jonathan\UPC\6to Ciclo\Desarrollo de Sistemas Distribuidos\upcdsd2012m2-grupo4\Fuentes\Ventas\Sunat\bin\TimeSheet.BE.dll
+G:\Jonathan\UPC\6to Ciclo\Desarrollo de Sistemas Distribuidos\upcdsd2012m2-grupo4\Fuentes\Ventas\Sunat\bin\TimeSheet.BE.pdb
+G:\Jonathan\UPC\6to Ciclo\Desarrollo de Sistemas Distribuidos\upcdsd2012m2-grupo4\Fuentes\Ventas\Sunat\obj\Debug\ResolveAssemblyReference.cache
+G:\Jonathan\UPC\6to Ciclo\Desarrollo de Sistemas Distribuidos\upcdsd2012m2-grupo4\Fuentes\Ventas\Sunat\obj\Debug\Sunat.dll
+G:\Jonathan\UPC\6to Ciclo\Desarrollo de Sistemas Distribuidos\upcdsd2012m2-grupo4\Fuentes\Ventas\Sunat\obj\Debug\Sunat.pdb

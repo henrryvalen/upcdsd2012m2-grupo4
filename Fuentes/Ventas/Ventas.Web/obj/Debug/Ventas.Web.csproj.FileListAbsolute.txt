@@ -74,3 +74,16 @@ C:\Documents and Settings\XPMUser\Mis documentos\Downloads\Ventas\Ventas\Ventas.
 C:\Documents and Settings\XPMUser\Mis documentos\Downloads\Ventas\Ventas\Ventas.Web\bin\EntityFramework.xml
 C:\Documents and Settings\XPMUser\Mis documentos\Downloads\Ventas\Ventas\Ventas.Web\obj\Debug\Ventas.Web.dll
 C:\Documents and Settings\XPMUser\Mis documentos\Downloads\Ventas\Ventas\Ventas.Web\obj\Debug\Ventas.Web.pdb
+G:\Jonathan\UPC\6to Ciclo\Desarrollo de Sistemas Distribuidos\upcdsd2012m2-grupo4\Fuentes\Ventas\Ventas.Web\obj\Debug\ResolveAssemblyReference.cache
+G:\Jonathan\UPC\6to Ciclo\Desarrollo de Sistemas Distribuidos\upcdsd2012m2-grupo4\Fuentes\Ventas\Ventas.Web\obj\Debug\Ventas.Web.dll
+G:\Jonathan\UPC\6to Ciclo\Desarrollo de Sistemas Distribuidos\upcdsd2012m2-grupo4\Fuentes\Ventas\Ventas.Web\bin\Ventas.Web.dll
+G:\Jonathan\UPC\6to Ciclo\Desarrollo de Sistemas Distribuidos\upcdsd2012m2-grupo4\Fuentes\Ventas\Ventas.Web\bin\Ventas.Web.pdb
+G:\Jonathan\UPC\6to Ciclo\Desarrollo de Sistemas Distribuidos\upcdsd2012m2-grupo4\Fuentes\Ventas\Ventas.Web\bin\TimeSheet.BE.dll
+G:\Jonathan\UPC\6to Ciclo\Desarrollo de Sistemas Distribuidos\upcdsd2012m2-grupo4\Fuentes\Ventas\Ventas.Web\bin\Ventas.BL.dll
+G:\Jonathan\UPC\6to Ciclo\Desarrollo de Sistemas Distribuidos\upcdsd2012m2-grupo4\Fuentes\Ventas\Ventas.Web\bin\Ventas.DAL.dll
+G:\Jonathan\UPC\6to Ciclo\Desarrollo de Sistemas Distribuidos\upcdsd2012m2-grupo4\Fuentes\Ventas\Ventas.Web\bin\EntityFramework.dll
+G:\Jonathan\UPC\6to Ciclo\Desarrollo de Sistemas Distribuidos\upcdsd2012m2-grupo4\Fuentes\Ventas\Ventas.Web\bin\TimeSheet.BE.pdb
+G:\Jonathan\UPC\6to Ciclo\Desarrollo de Sistemas Distribuidos\upcdsd2012m2-grupo4\Fuentes\Ventas\Ventas.Web\bin\Ventas.BL.pdb
+G:\Jonathan\UPC\6to Ciclo\Desarrollo de Sistemas Distribuidos\upcdsd2012m2-grupo4\Fuentes\Ventas\Ventas.Web\bin\Ventas.DAL.pdb
+G:\Jonathan\UPC\6to Ciclo\Desarrollo de Sistemas Distribuidos\upcdsd2012m2-grupo4\Fuentes\Ventas\Ventas.Web\bin\EntityFramework.xml
+G:\Jonathan\UPC\6to Ciclo\Desarrollo de Sistemas Distribuidos\upcdsd2012m2-grupo4\Fuentes\Ventas\Ventas.Web\obj\Debug\Ventas.Web.pdb
