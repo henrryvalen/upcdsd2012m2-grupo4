@@ -25,6 +25,8 @@
             <br />
             <div id="menucontainer">
                 <ul id="menu">
+                <li>
+                        <%: Html.ActionLink("VentaPauta", "Index", "VentaPauta")%></li>
                     <li>
                         <%: Html.ActionLink("Empresa", "Index", "Empresa")%></li>
                     <li>

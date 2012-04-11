@@ -52,7 +52,7 @@ namespace Ventas.BL
 
         #endregion
 
-        #region "VentaPauta"
+        #region VentaPauta
         ICollection<VentaPauta> ListarVentaPauta();
         VentaPauta ObtenerVentaPauta(int codigoVentaPauta);
         VentaPauta RegistrarVentaPauta(int Codigo, int radioCodigo, string ventaNombreVendedor, string ventaDescripcionProducto, string empresaRUC, int tipoPautaCodigo, string ventaNumeroDias, int ventaPrioridad,

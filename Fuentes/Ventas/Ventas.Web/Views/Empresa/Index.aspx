@@ -9,7 +9,7 @@
     <h2>Empresas</h2>
      <p>
         <%: Html.ActionLink("Consultar Estado", "Find") %>
-        
+        <%: Html.ActionLink("Consultar INFOCORP", "FindInfocorp") %>
     </p>
     <table>
         <tr>

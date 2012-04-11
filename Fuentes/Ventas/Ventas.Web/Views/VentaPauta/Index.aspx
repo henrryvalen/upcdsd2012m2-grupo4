@@ -6,67 +6,31 @@
 
 <asp:Content ID="Content2" ContentPlaceHolderID="MainContent" runat="server">
 
-    <h2>Index</h2>
+    <h2>Registro de Ventas</h2>
 
     <table>
         <tr>
             <th></th>
             <th>
                 Codigo
+            </th> 
+            <th>
+                Descripción Producto
+            </th> 
+            <th>
+                Prioridad
             </th>
             <th>
-                radioCodigo
+                Transaccion
+            </th>  
+            <th>
+                Monto Total
             </th>
             <th>
-                ventaNombreVendedor
-            </th>
+                Tipo de Pago
+            </th> 
             <th>
-                ventaDescripcionProducto
-            </th>
-            <th>
-                empresaRUC
-            </th>
-            <th>
-                tipoPautaCodigo
-            </th>
-            <th>
-                ventaNumeroDias
-            </th>
-            <th>
-                ventaPrioridad
-            </th>
-            <th>
-                ventaTipoTransaccion
-            </th>
-            <th>
-                ventaIGV
-            </th>
-            <th>
-                ventaTipoOrden
-            </th>
-            <th>
-                ventaImporteTotal
-            </th>
-            <th>
-                ventaMontoTotal
-            </th>
-            <th>
-                ventaTipoPago
-            </th>
-            <th>
-                ventaFechaCreacion
-            </th>
-            <th>
-                ventaUsuarioCreacion
-            </th>
-            <th>
-                ventaFechaModif
-            </th>
-            <th>
-                ventaUsuarioModif
-            </th>
-            <th>
-                ventaEstado
+                Estado
             </th>
         </tr>
 
@@ -74,64 +38,28 @@
     
         <tr>
             <td>
-                <%: Html.ActionLink("Edit", "Edit", new { /* id=item.PrimaryKey */ }) %> |
-                <%: Html.ActionLink("Details", "Details", new { /* id=item.PrimaryKey */ })%> |
-                <%: Html.ActionLink("Delete", "Delete", new { /* id=item.PrimaryKey */ })%>
+                <%: Html.ActionLink("Editar", "Edit", new { /* id=item.PrimaryKey */ }) %> |
+                <%: Html.ActionLink("Detalles", "Details", new { /* id=item.PrimaryKey */ })%> |
+                <%: Html.ActionLink("Cancelar", "Delete", new { /* id=item.PrimaryKey */ })%>
             </td>
             <td>
                 <%: item.Codigo %>
-            </td>
-            <td>
-                <%: item.radioCodigo %>
-            </td>
-            <td>
-                <%: item.ventaNombreVendedor %>
-            </td>
+            </td> 
             <td>
                 <%: item.ventaDescripcionProducto %>
-            </td>
-            <td>
-                <%: item.empresaRUC %>
-            </td>
-            <td>
-                <%: item.tipoPautaCodigo %>
-            </td>
-            <td>
-                <%: item.ventaNumeroDias %>
-            </td>
+            </td> 
             <td>
                 <%: item.ventaPrioridad %>
             </td>
             <td>
                 <%: item.ventaTipoTransaccion %>
-            </td>
-            <td>
-                <%: item.ventaIGV %>
-            </td>
-            <td>
-                <%: item.ventaTipoOrden %>
-            </td>
-            <td>
-                <%: String.Format("{0:F}", item.ventaImporteTotal) %>
-            </td>
+            </td> 
             <td>
                 <%: String.Format("{0:F}", item.ventaMontoTotal) %>
             </td>
             <td>
                 <%: item.ventaTipoPago %>
-            </td>
-            <td>
-                <%: String.Format("{0:g}", item.ventaFechaCreacion) %>
-            </td>
-            <td>
-                <%: item.ventaUsuarioCreacion %>
-            </td>
-            <td>
-                <%: String.Format("{0:g}", item.ventaFechaModif) %>
-            </td>
-            <td>
-                <%: item.ventaUsuarioModif %>
-            </td>
+            </td> 
             <td>
                 <%: item.ventaEstado %>
             </td>
@@ -142,7 +70,7 @@
     </table>
 
     <p>
-        <%: Html.ActionLink("Create New", "Create") %>
+        <%: Html.ActionLink("Registrar Venta", "Create") %>
     </p>
 
 </asp:Content>
