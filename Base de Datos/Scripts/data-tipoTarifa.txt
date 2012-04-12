@@ -1,0 +1,9 @@
+INSERT INTO tipotarifa (tipoTarifaCodigo, tipoTarifaNombre, tipoTarifaEstado) VALUES
+(1, 'El show de carloncho', '1'),
+(2, 'Luigi Flow', '1'),
+(3, 'Jojojonathan', '1'),
+(4, 'La descarada', '1'),
+(5, 'El juergon de Dj Tavo', '1'),
+(6, 'Mañana Maldita', '1'),
+(7, 'Alta Fidelidad', '1'),
+(8, 'Oh my Gachi', '1');
