@@ -1,10 +1,10 @@
 
 
 INSERT INTO tipopauta (tipoPautaCodigo, tipoPautaNombre, tipoPautaEstado) VALUES
-(1, 'Disco Servicio', '1');
+(1, 'Disco Servicio', 'A');
 INSERT INTO tipopauta (tipoPautaCodigo, tipoPautaNombre, tipoPautaEstado) VALUES
-(2, 'Mención', '1');
+(2, 'Mención', 'A');
 INSERT INTO tipopauta (tipoPautaCodigo, tipoPautaNombre, tipoPautaEstado) VALUES
-(3, 'Auspicio', '1');
+(3, 'Auspicio', 'A');
 INSERT INTO tipopauta (tipoPautaCodigo, tipoPautaNombre, tipoPautaEstado) VALUES
-(4, 'Spot', '1');
+(4, 'Spot', 'A');
