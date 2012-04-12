@@ -1,7 +1,7 @@
 
 (object Petal
     version    	50
-    _written   	"Rose 8.2.0311.2600"
+    _written   	"Rose 2006.0.0.060314"
     charSet    	0)
 
 (object Design "Logical View"
@@ -122,6 +122,7 @@
 				    fill_color 	13434879
 				    nlines     	14
 				    max_width  	809
+				    justify    	1
 				    label      	
 |Global View of Business Actors and BusinessUse Cases
 |
@@ -154,6 +155,7 @@
 				    fill_color 	13434879
 				    nlines     	5
 				    max_width  	640
+				    justify    	1
 				    label      	
 |Created/modified by: <name>
 |Date: <creation/modification date>
@@ -259,6 +261,7 @@
 							    fill_color 	13434879
 							    nlines     	15
 							    max_width  	859
+							    justify    	1
 							    label      	
 |Local View - Use Case <Use Case Name>
 |
@@ -291,6 +294,7 @@
 							    fill_color 	13434879
 							    nlines     	5
 							    max_width  	640
+							    justify    	1
 							    label      	
 |Created/modified by: <name>
 |Date: <creation/modification date>
@@ -397,6 +401,9 @@
 								quidu      	"35C0ED3B0118"
 								client     	@7
 								supplier   	@5
+								vertices   	(list Points
+								    (741, 1024)
+								    (976, 1024))
 								line_style 	0)
 							    (object RoleView "" @10
 								Parent_View 	@7
@@ -406,6 +413,9 @@
 								quidu      	"35C0ED3B0119"
 								client     	@7
 								supplier   	@6
+								vertices   	(list Points
+								    (741, 1024)
+								    (505, 1024))
 								line_style 	0)))))))
 				    (object Association "$UNNAMED$0"
 					quid       	"35C0ED3A00F0"
@@ -465,6 +475,7 @@
 					    fill_color 	13434879
 					    nlines     	15
 					    max_width  	740
+					    justify    	1
 					    label      	
 |Architecturally Significant Use Cases
 |
@@ -497,6 +508,7 @@
 					    fill_color 	13434879
 					    nlines     	5
 					    max_width  	640
+					    justify    	1
 					    label      	
 |Created/modified by: <name>
 |Date: <creation/modification date>
@@ -536,6 +548,7 @@
 				    fill_color 	13434879
 				    nlines     	12
 				    max_width  	784
+				    justify    	1
 				    label      	
 |Global View of Actors and Use Cases
 |
@@ -677,6 +690,9 @@
 					quidu      	"35C0ED3B0119"
 					client     	@16
 					supplier   	@14
+					vertices   	(list Points
+					    (868, 976)
+					    (585, 976))
 					line_style 	0)
 				    (object RoleView "$UNNAMED$1" @20
 					Parent_View 	@16
@@ -717,6 +733,9 @@
 					quidu      	"35C0ED3B0118"
 					client     	@16
 					supplier   	@15
+					vertices   	(list Points
+					    (868, 976)
+					    (1154, 976))
 					line_style 	0))))))))
 	logical_presentations 	(list unit_reference_list
 	    (object UseCaseDiagram "Main"
@@ -773,6 +792,7 @@
 			    fill_color 	13434879
 			    nlines     	9
 			    max_width  	419
+			    justify    	1
 			    label      	"The Use-Case Model is traceable to (and derives from) the Business Model.  The system (as described in the Use Case Model) provides behavior that supports the business.")
 			line_color 	3342489
 			fill_color 	13434879
@@ -809,12 +829,18 @@
 			quidu      	"35C633DA030C"
 			client     	@22
 			supplier   	@24
+			vertices   	(list Points
+			    (384, 718)
+			    (384, 417))
 			line_style 	0)
 		    (object AttachView "" @26
 			stereotype 	TRUE
 			line_color 	3342489
 			client     	@25
 			supplier   	@23
+			vertices   	(list Points
+			    (384, 567)
+			    (800, 561))
 			line_style 	0)))))
     root_category 	(object Class_Category "Logical View"
 	quid       	"34DBB4830141"
@@ -1061,6 +1087,7 @@
 						    fill_color 	13434879
 						    nlines     	5
 						    max_width  	1296
+						    justify    	1
 						    label      	
 |
 |This diagram shows the Use Case and the Use Case Realization and the realize dependency between them.
@@ -1170,6 +1197,9 @@
 							quidu      	"35409E9E0294"
 							client     	@32
 							supplier   	@30
+							vertices   	(list Points
+							    (876, 741)
+							    (943, 689))
 							line_style 	0)
 						    (object RoleView "$UNNAMED$5" @35
 							Parent_View 	@32
@@ -1179,6 +1209,9 @@
 							quidu      	"35409E9E0295"
 							client     	@32
 							supplier   	@31
+							vertices   	(list Points
+							    (876, 741)
+							    (678, 899))
 							line_style 	0))))))))
 			logical_presentations 	(list unit_reference_list))
 		    (object Class_Category "Process View"
@@ -1312,6 +1345,9 @@
 						quidu      	"35DB3E73005A"
 						client     	@38
 						supplier   	@36
+						vertices   	(list Points
+						    (596, 464)
+						    (463, 464))
 						line_style 	0)
 					    (object RoleView "$UNNAMED$8" @40
 						Parent_View 	@38
@@ -1321,6 +1357,9 @@
 						quidu      	"35DB3E730096"
 						client     	@38
 						supplier   	@37
+						vertices   	(list Points
+						    (596, 464)
+						    (730, 464))
 						line_style 	0))))))))
 		logical_presentations 	(list unit_reference_list
 		    (object ClassDiagram "Architecturally Significant Model Elements"
@@ -1350,6 +1389,7 @@
 				    fill_color 	13434879
 				    nlines     	13
 				    max_width  	1253
+				    justify    	1
 				    label      	
 |
 |This diagram is just produced for architectural significant packages.
@@ -1385,6 +1425,7 @@
 				    fill_color 	13434879
 				    nlines     	5
 				    max_width  	640
+				    justify    	1
 				    label      	
 |Created/modified by: <name>
 |Date: <creation/modification date>
@@ -1432,6 +1473,7 @@
 				    fill_color 	13434879
 				    nlines     	9
 				    max_width  	1028
+				    justify    	1
 				    label      	
 |This diagram shows the design model layers.
 |
@@ -1463,6 +1505,7 @@
 				    fill_color 	13434879
 				    nlines     	5
 				    max_width  	640
+				    justify    	1
 				    label      	
 |Created/modified by: <name>
 |Date: <creation/modification date>
@@ -1512,6 +1555,7 @@
 			    fill_color 	13434879
 			    nlines     	14
 			    max_width  	1259
+			    justify    	1
 			    label      	
 |Welcome to the Rational Unified Process Rose Model Framework
 |
@@ -1656,7 +1700,7 @@
 		connections 	(list connection_list
 		    (object Connection_Relationship
 			quid       	"4F86F9C7005A"
-			label      	"Https"
+			label      	"Http"
 			supplier   	"Servidor Linux"
 			quidu      	"4F86F68D00F1"
 			supplier_is_device 	TRUE)
@@ -1698,7 +1742,7 @@
 		origin_y   	0
 		items      	(list diagram_item_list
 		    (object DeviceView "Laptop Dell Latitude E6410" @47
-			location   	(480, 896)
+			location   	(416, 1040)
 			font       	(object Font
 			    size       	9
 			    face       	"Arial"
@@ -1710,18 +1754,19 @@
 			    default_color 	TRUE)
 			label      	(object ItemLabel
 			    Parent_View 	@47
-			    location   	(307, 790)
+			    location   	(243, 934)
 			    nlines     	2
 			    max_width  	275
 			    justify    	0
 			    label      	"Laptop Dell Latitude E6410")
 			icon_style 	"Icon"
+			line_color 	128
 			quidu      	"34DBBD47019A"
 			width      	350
 			height     	282
 			annotation 	0)
-		    (object NoteView @48
-			location   	(816, 304)
+		    (object DeviceView "Cliente windows" @48
+			location   	(624, 992)
 			font       	(object Font
 			    size       	9
 			    face       	"Arial"
@@ -1733,26 +1778,19 @@
 			    default_color 	TRUE)
 			label      	(object ItemLabel
 			    Parent_View 	@48
-			    location   	(38, 29)
-			    fill_color 	13434879
-			    nlines     	11
-			    max_width  	1521
-			    label      	
-|This Diagram defines the typical physical network configurations, including those typically used by end users, as well as special configurations used for development and test.
-|
-|· Allocate processes to the various nodes. Allocation takes into account the capacity of the nodes (in terms of
-|both memory and processing), bandwidth of the communication medium (bus, LANs, WANs), and the
-|availability of the hardware and communication links, rerouting, and so on.
-|
-|See, Rational Unified Process:
-|Activity: Describe Distribution
-			    )
+			    location   	(198, 686)
+			    nlines     	2
+			    max_width  	781
+			    justify    	0
+			    label      	"Cliente windows")
+			icon_style 	"None"
 			line_color 	3342489
-			fill_color 	13434879
-			width      	1581
-			height     	563)
-		    (object DeviceView "Hp Color Laserjet CP 2020" @49
-			location   	(464, 1200)
+			quidu      	"4F86F93F033F"
+			width      	856
+			height     	681
+			annotation 	0)
+		    (object DeviceView "Navegador (IE-Mozilla)" @49
+			location   	(816, 1040)
 			font       	(object Font
 			    size       	9
 			    face       	"Arial"
@@ -1764,19 +1802,19 @@
 			    default_color 	TRUE)
 			label      	(object ItemLabel
 			    Parent_View 	@49
-			    location   	(353, 1145)
+			    location   	(677, 962)
 			    nlines     	2
-			    max_width  	150
+			    max_width  	206
 			    justify    	0
-			    label      	"Hp Color Laserjet CP 2020")
+			    label      	"Navegador (IE-Mozilla)")
 			icon_style 	"Icon"
 			line_color 	3342489
-			quidu      	"4F86F6660000"
-			width      	225
-			height     	180
+			quidu      	"4F86F97503BA"
+			width      	281
+			height     	225
 			annotation 	0)
-		    (object DeviceView "Cliente windows" @50
-			location   	(640, 992)
+		    (object DeviceView "Servidor Linux" @50
+			location   	(1616, 992)
 			font       	(object Font
 			    size       	9
 			    face       	"Arial"
@@ -1788,19 +1826,19 @@
 			    default_color 	TRUE)
 			label      	(object ItemLabel
 			    Parent_View 	@50
-			    location   	(195, 670)
+			    location   	(1224, 714)
 			    nlines     	2
-			    max_width  	819
+			    max_width  	713
 			    justify    	0
-			    label      	"Cliente windows")
+			    label      	"Servidor Linux")
 			icon_style 	"None"
 			line_color 	3342489
-			quidu      	"4F86F93F033F"
-			width      	894
-			height     	713
+			quidu      	"4F86F68D00F1"
+			width      	788
+			height     	625
 			annotation 	0)
-		    (object DeviceView "Navegador (IE-Mozilla)" @51
-			location   	(784, 1184)
+		    (object DeviceView "Tomcat" @51
+			location   	(1696, 1168)
 			font       	(object Font
 			    size       	9
 			    face       	"Arial"
@@ -1812,19 +1850,19 @@
 			    default_color 	TRUE)
 			label      	(object ItemLabel
 			    Parent_View 	@51
-			    location   	(645, 1106)
+			    location   	(1573, 1103)
 			    nlines     	2
-			    max_width  	206
+			    max_width  	175
 			    justify    	0
-			    label      	"Navegador (IE-Mozilla)")
+			    label      	"Tomcat")
 			icon_style 	"Icon"
 			line_color 	3342489
-			quidu      	"4F86F97503BA"
-			width      	281
-			height     	225
+			quidu      	"4F86F9A000CA"
+			width      	250
+			height     	200
 			annotation 	0)
-		    (object DeviceView "Servidor Linux" @52
-			location   	(1760, 1216)
+		    (object DeviceView "Base de datos SQL 2005" @52
+			location   	(1440, 912)
 			font       	(object Font
 			    size       	9
 			    face       	"Arial"
@@ -1836,19 +1874,18 @@
 			    default_color 	TRUE)
 			label      	(object ItemLabel
 			    Parent_View 	@52
-			    location   	(1368, 938)
+			    location   	(1267, 806)
 			    nlines     	2
-			    max_width  	713
+			    max_width  	275
 			    justify    	0
-			    label      	"Servidor Linux")
-			icon_style 	"None"
+			    label      	"Base de datos SQL 2005")
+			icon_style 	"Icon"
 			line_color 	3342489
-			quidu      	"4F86F68D00F1"
-			width      	788
-			height     	625
+			quidu      	"4F86F6A501C4"
+			width      	350
+			height     	281
 			annotation 	0)
-		    (object DeviceView "Tomcat" @53
-			location   	(1600, 1168)
+		    (object ConnectionView "Http" @53
 			font       	(object Font
 			    size       	9
 			    face       	"Arial"
@@ -1860,42 +1897,33 @@
 			    default_color 	TRUE)
 			label      	(object ItemLabel
 			    Parent_View 	@53
-			    location   	(1455, 1087)
-			    nlines     	2
-			    max_width  	219
+			    location   	(1121, 992)
+			    anchor_loc 	1
+			    nlines     	1
+			    max_width  	450
 			    justify    	0
-			    label      	"Tomcat")
-			icon_style 	"Icon"
+			    label      	"Http")
+			stereotype 	TRUE
 			line_color 	3342489
-			quidu      	"4F86F9A000CA"
-			width      	294
-			height     	231
-			annotation 	0)
-		    (object DeviceView "Base de datos SQL 2005" @54
-			location   	(1888, 1392)
-			font       	(object Font
-			    size       	9
-			    face       	"Arial"
-			    bold       	FALSE
-			    italics    	FALSE
-			    underline  	FALSE
-			    strike     	FALSE
-			    color      	0
-			    default_color 	TRUE)
-			label      	(object ItemLabel
-			    Parent_View 	@54
-			    location   	(1734, 1302)
-			    nlines     	2
-			    max_width  	237
-			    justify    	0
-			    label      	"Base de datos SQL 2005")
-			icon_style 	"Icon"
+			quidu      	"4F86F9C7005A"
+			client     	@48
+			supplier   	@50
+			vertices   	(list Points
+			    (1021, 992)
+			    (1222, 992))
+			line_style 	0)
+		    (object ConnectionView "" @54
+			stereotype 	TRUE
 			line_color 	3342489
-			quidu      	"4F86F6A501C4"
-			width      	312
-			height     	250
-			annotation 	0)
-		    (object ConnectionView "Https" @55
+			quidu      	"4F86FCD203BC"
+			client     	@47
+			supplier   	@49
+			vertices   	(list Points
+			    (560, 1040)
+			    (676, 1040))
+			line_style 	0)
+		    (object DeviceView "Web Service Infocorp" @55
+			location   	(2512, 1248)
 			font       	(object Font
 			    size       	9
 			    face       	"Arial"
@@ -1907,34 +1935,69 @@
 			    default_color 	TRUE)
 			label      	(object ItemLabel
 			    Parent_View 	@55
-			    location   	(1211, 1104)
+			    location   	(2345, 1148)
+			    nlines     	2
+			    max_width  	263
+			    justify    	0
+			    label      	"Web Service Infocorp")
+			icon_style 	"Icon"
+			line_color 	3342489
+			quidu      	"4F86FD780059"
+			width      	338
+			height     	269
+			annotation 	0)
+		    (object DeviceView "Web service SUNAT" @56
+			location   	(2448, 736)
+			font       	(object Font
+			    size       	9
+			    face       	"Arial"
+			    bold       	FALSE
+			    italics    	FALSE
+			    underline  	FALSE
+			    strike     	FALSE
+			    color      	0
+			    default_color 	TRUE)
+			label      	(object ItemLabel
+			    Parent_View 	@56
+			    location   	(2306, 658)
+			    nlines     	2
+			    max_width  	213
+			    justify    	0
+			    label      	"Web service SUNAT")
+			icon_style 	"Icon"
+			line_color 	3342489
+			quidu      	"4F86FD0B036C"
+			width      	288
+			height     	225
+			annotation 	0)
+		    (object ConnectionView "Mensaje REST (Respuesta Json)" @57
+			font       	(object Font
+			    size       	9
+			    face       	"Arial"
+			    bold       	FALSE
+			    italics    	FALSE
+			    underline  	FALSE
+			    strike     	FALSE
+			    color      	0
+			    default_color 	TRUE)
+			label      	(object ItemLabel
+			    Parent_View 	@57
+			    location   	(2161, 1120)
 			    anchor_loc 	1
 			    nlines     	1
-			    max_width  	450
+			    max_width  	610
 			    justify    	0
-			    label      	"Https")
+			    label      	"Mensaje REST (Respuesta Json)")
 			stereotype 	TRUE
 			line_color 	3342489
-			quidu      	"4F86F9C7005A"
+			quidu      	"4F86FDB70187"
 			client     	@50
-			supplier   	@52
+			supplier   	@55
+			vertices   	(list Points
+			    (1979, 992)
+			    (2343, 1248))
 			line_style 	0)
-		    (object ConnectionView "" @56
-			stereotype 	TRUE
-			line_color 	3342489
-			quidu      	"4F86F91C03C4"
-			client     	@47
-			supplier   	@49
-			line_style 	0)
-		    (object ConnectionView "" @57
-			stereotype 	TRUE
-			line_color 	3342489
-			quidu      	"4F86FCD203BC"
-			client     	@47
-			supplier   	@51
-			line_style 	0)
-		    (object DeviceView "Web Service Infocorp" @58
-			location   	(2704, 1552)
+		    (object ConnectionView "Mensaje SOAP(Respuesta XML)" @58
 			font       	(object Font
 			    size       	9
 			    face       	"Arial"
@@ -1946,78 +2009,7 @@
 			    default_color 	TRUE)
 			label      	(object ItemLabel
 			    Parent_View 	@58
-			    location   	(2528, 1446)
-			    nlines     	2
-			    max_width  	281
-			    justify    	0
-			    label      	"Web Service Infocorp")
-			icon_style 	"Icon"
-			line_color 	3342489
-			quidu      	"4F86FD780059"
-			width      	356
-			height     	281
-			annotation 	0)
-		    (object DeviceView "Web service SUNAT" @59
-			location   	(2720, 992)
-			font       	(object Font
-			    size       	9
-			    face       	"Arial"
-			    bold       	FALSE
-			    italics    	FALSE
-			    underline  	FALSE
-			    strike     	FALSE
-			    color      	0
-			    default_color 	TRUE)
-			label      	(object ItemLabel
-			    Parent_View 	@59
-			    location   	(2578, 914)
-			    nlines     	2
-			    max_width  	213
-			    justify    	0
-			    label      	"Web service SUNAT")
-			icon_style 	"Icon"
-			line_color 	3342489
-			quidu      	"4F86FD0B036C"
-			width      	288
-			height     	225
-			annotation 	0)
-		    (object ConnectionView "Mensaje REST (Respuesta Json)" @60
-			font       	(object Font
-			    size       	9
-			    face       	"Arial"
-			    bold       	FALSE
-			    italics    	FALSE
-			    underline  	FALSE
-			    strike     	FALSE
-			    color      	0
-			    default_color 	TRUE)
-			label      	(object ItemLabel
-			    Parent_View 	@60
-			    location   	(2324, 1384)
-			    anchor_loc 	1
-			    nlines     	1
-			    max_width  	610
-			    justify    	0
-			    label      	"Mensaje REST (Respuesta Json)")
-			stereotype 	TRUE
-			line_color 	3342489
-			quidu      	"4F86FDB70187"
-			client     	@52
-			supplier   	@58
-			line_style 	0)
-		    (object ConnectionView "Mensaje SOAP(Respuesta XML)" @61
-			font       	(object Font
-			    size       	9
-			    face       	"Arial"
-			    bold       	FALSE
-			    italics    	FALSE
-			    underline  	FALSE
-			    strike     	FALSE
-			    color      	0
-			    default_color 	TRUE)
-			label      	(object ItemLabel
-			    Parent_View 	@61
-			    location   	(2349, 1104)
+			    location   	(2142, 864)
 			    anchor_loc 	1
 			    nlines     	1
 			    max_width  	565
@@ -2026,8 +2018,11 @@
 			stereotype 	TRUE
 			line_color 	3342489
 			quidu      	"4F86FDBA000F"
-			client     	@52
-			supplier   	@59
+			client     	@50
+			supplier   	@56
+			vertices   	(list Points
+			    (1979, 992)
+			    (2304, 736))
 			line_style 	0)))))
     properties 	(object Properties
 	attributes 	(list Attribute_Set
@@ -5370,7 +5365,7 @@
 		    (object Attribute
 			tool       	"Java"
 			name       	"ClassPath"
-			value      	".;C:\\Program Files\\Java\\jre6\\lib\\ext\\QTJava.zip")
+			value      	".;C:\\Program Files\\Java\\jre7\\lib\\ext\\QTJava.zip;C:\\Program Files\\Java\\jdk1.7.0\\jre\\lib\\rt.jar;C:\\Program Files\\Java\\jdk1.7.0\\lib\\dt.jar;C:\\Program Files\\Java\\jdk1.7.0\\lib\\tools.jar")
 		    (object Attribute
 			tool       	"Java"
 			name       	"EditorType"
@@ -5626,7 +5621,11 @@
 		    (object Attribute
 			tool       	"Java"
 			name       	"SCCComment"
-			value      	FALSE)))
+			value      	FALSE)
+		    (object Attribute
+			tool       	"Java"
+			name       	"JavadocExceptionTag"
+			value      	"@throws")))
 	    (object Attribute
 		tool       	"Java"
 		name       	"default__Class"
@@ -6214,7 +6213,39 @@
 		    (object Attribute
 			tool       	"CORBA"
 			name       	"PathSeparator"
-			value      	"")))
+			value      	"")
+		    (object Attribute
+			tool       	"CORBA"
+			name       	"FundamentalTypes"
+			value      	"short; long; long long; unsigned short; unsigned long; unsigned long long; float; double; long double; char; boolean; wchar; octet; any;string; wstring; sequence; fixed; Object")
+		    (object Attribute
+			tool       	"CORBA"
+			name       	"GenerateRoseID"
+			value      	TRUE)
+		    (object Attribute
+			tool       	"CORBA"
+			name       	"NotShowRoseIDDlg"
+			value      	FALSE)
+		    (object Attribute
+			tool       	"CORBA"
+			name       	"GenerateComments"
+			value      	TRUE)
+		    (object Attribute
+			tool       	"CORBA"
+			name       	"UseTabs"
+			value      	FALSE)
+		    (object Attribute
+			tool       	"CORBA"
+			name       	"UseSpaces"
+			value      	TRUE)
+		    (object Attribute
+			tool       	"CORBA"
+			name       	"SpacingItems"
+			value      	4)
+		    (object Attribute
+			tool       	"CORBA"
+			name       	"BraceOnNewLine"
+			value      	FALSE)))
 	    (object Attribute
 		tool       	"CORBA"
 		name       	"default__Class"
@@ -6230,7 +6261,11 @@
 		    (object Attribute
 			tool       	"CORBA"
 			name       	"ImplementationType"
-			value      	"")))
+			value      	"")
+		    (object Attribute
+			tool       	"CORBA"
+			name       	"IsLocal"
+			value      	FALSE)))
 	    (object Attribute
 		tool       	"CORBA"
 		name       	"default__Module-Spec"
@@ -7158,6 +7193,30 @@
 			    (object Attribute
 				tool       	"Cplusplus"
 				name       	"Never synchronize"
+				value      	4)))
+		    (object Attribute
+			tool       	"Cplusplus"
+			name       	"CommentStyleProperty"
+			value      	("CommentStyleSet" 1))
+		    (object Attribute
+			tool       	"Cplusplus"
+			name       	"CommentStyleSet"
+			value      	(list Attribute_Set
+			    (object Attribute
+				tool       	"Cplusplus"
+				name       	"C++ Comment"
+				value      	1)
+			    (object Attribute
+				tool       	"Cplusplus"
+				name       	"C Comment"
+				value      	2)
+			    (object Attribute
+				tool       	"Cplusplus"
+				name       	"XML Comment"
+				value      	3)
+			    (object Attribute
+				tool       	"Cplusplus"
+				name       	"JavaDoc Comment"
 				value      	4)))))
 	    (object Attribute
 		tool       	"Cplusplus"
@@ -7386,6 +7445,30 @@
 			    (object Attribute
 				tool       	"Cplusplus"
 				name       	"Never synchronize"
+				value      	4)))
+		    (object Attribute
+			tool       	"Cplusplus"
+			name       	"CommentStyleProperty"
+			value      	("CommentStyleSet" 1))
+		    (object Attribute
+			tool       	"Cplusplus"
+			name       	"CommentStyleSet"
+			value      	(list Attribute_Set
+			    (object Attribute
+				tool       	"Cplusplus"
+				name       	"C++ Comment"
+				value      	1)
+			    (object Attribute
+				tool       	"Cplusplus"
+				name       	"C Comment"
+				value      	2)
+			    (object Attribute
+				tool       	"Cplusplus"
+				name       	"XML Comment"
+				value      	3)
+			    (object Attribute
+				tool       	"Cplusplus"
+				name       	"JavaDoc Comment"
 				value      	4)))))
 	    (object Attribute
 		tool       	"Cplusplus"
@@ -10455,7 +10538,23 @@
 		    (object Attribute
 			tool       	"VC++"
 			name       	"DefaultBody"
-			value      	(value Text ""))))
+			value      	(value Text ""))
+		    (object Attribute
+			tool       	"VC++"
+			name       	"GenerateSet"
+			value      	(list Attribute_Set
+			    (object Attribute
+				tool       	"VC++"
+				name       	"DoNotGenerate"
+				value      	400)
+			    (object Attribute
+				tool       	"VC++"
+				name       	"DeclareAndDefine"
+				value      	401)
+			    (object Attribute
+				tool       	"VC++"
+				name       	"DeclareOnly"
+				value      	402)))))
 	    (object Attribute
 		tool       	"VC++"
 		name       	"HiddenTool"
@@ -10550,6 +10649,654 @@
 			value      	"")))
 	    (object Attribute
 		tool       	"XML_DTD"
+		name       	"HiddenTool"
+		value      	FALSE)
+	    (object Attribute
+		tool       	"Data Modeler"
+		name       	"propertyId"
+		value      	"809135966")
+	    (object Attribute
+		tool       	"Data Modeler"
+		name       	"default__Project"
+		value      	(list Attribute_Set
+		    (object Attribute
+			tool       	"Data Modeler"
+			name       	"project"
+			value      	"")
+		    (object Attribute
+			tool       	"Data Modeler"
+			name       	"TableCounter"
+			value      	0)
+		    (object Attribute
+			tool       	"Data Modeler"
+			name       	"ViewCounter"
+			value      	0)
+		    (object Attribute
+			tool       	"Data Modeler"
+			name       	"DomainCounter"
+			value      	0)
+		    (object Attribute
+			tool       	"Data Modeler"
+			name       	"SPPackageCounter"
+			value      	0)
+		    (object Attribute
+			tool       	"Data Modeler"
+			name       	"TriggerCounter"
+			value      	0)
+		    (object Attribute
+			tool       	"Data Modeler"
+			name       	"IndexCounter"
+			value      	0)
+		    (object Attribute
+			tool       	"Data Modeler"
+			name       	"ConstraintCounter"
+			value      	0)
+		    (object Attribute
+			tool       	"Data Modeler"
+			name       	"StoreProcedureCounter"
+			value      	0)
+		    (object Attribute
+			tool       	"Data Modeler"
+			name       	"PrimaryKeyCounter"
+			value      	0)
+		    (object Attribute
+			tool       	"Data Modeler"
+			name       	"ForeignKeyCounter"
+			value      	0)
+		    (object Attribute
+			tool       	"Data Modeler"
+			name       	"JoinCounter"
+			value      	0)
+		    (object Attribute
+			tool       	"Data Modeler"
+			name       	"TableSpaceCounter"
+			value      	0)
+		    (object Attribute
+			tool       	"Data Modeler"
+			name       	"cONTAINERCounter"
+			value      	0)
+		    (object Attribute
+			tool       	"Data Modeler"
+			name       	"TablePrefix"
+			value      	"")
+		    (object Attribute
+			tool       	"Data Modeler"
+			name       	"ViewPrefix"
+			value      	"")
+		    (object Attribute
+			tool       	"Data Modeler"
+			name       	"DomainPrefix"
+			value      	"")
+		    (object Attribute
+			tool       	"Data Modeler"
+			name       	"TriggerPrefix"
+			value      	"")
+		    (object Attribute
+			tool       	"Data Modeler"
+			name       	"IndexPrefix"
+			value      	"")
+		    (object Attribute
+			tool       	"Data Modeler"
+			name       	"ConstraintPrefix"
+			value      	"")
+		    (object Attribute
+			tool       	"Data Modeler"
+			name       	"StoreProcedurePrefix"
+			value      	"")
+		    (object Attribute
+			tool       	"Data Modeler"
+			name       	"PrimaryKeyPrefix"
+			value      	"")
+		    (object Attribute
+			tool       	"Data Modeler"
+			name       	"ForeignKeyPrefix"
+			value      	"")
+		    (object Attribute
+			tool       	"Data Modeler"
+			name       	"TableSpacePrefix"
+			value      	"")))
+	    (object Attribute
+		tool       	"Data Modeler"
+		name       	"default__Module-Spec"
+		value      	(list Attribute_Set
+		    (object Attribute
+			tool       	"Data Modeler"
+			name       	"dmItem"
+			value      	FALSE)
+		    (object Attribute
+			tool       	"Data Modeler"
+			name       	"DMName"
+			value      	"")
+		    (object Attribute
+			tool       	"Data Modeler"
+			name       	"IsDatabase"
+			value      	FALSE)
+		    (object Attribute
+			tool       	"Data Modeler"
+			name       	"TargetDatabase"
+			value      	"")
+		    (object Attribute
+			tool       	"Data Modeler"
+			name       	"Location"
+			value      	"")
+		    (object Attribute
+			tool       	"Data Modeler"
+			name       	"IsTableSpace"
+			value      	FALSE)
+		    (object Attribute
+			tool       	"Data Modeler"
+			name       	"TableSpaceType"
+			value      	"")
+		    (object Attribute
+			tool       	"Data Modeler"
+			name       	"IsDeault"
+			value      	FALSE)
+		    (object Attribute
+			tool       	"Data Modeler"
+			name       	"BufferPool"
+			value      	"")
+		    (object Attribute
+			tool       	"Data Modeler"
+			name       	"ExtentSize"
+			value      	1)
+		    (object Attribute
+			tool       	"Data Modeler"
+			name       	"PrefetchSize"
+			value      	1)
+		    (object Attribute
+			tool       	"Data Modeler"
+			name       	"PageSize"
+			value      	4)
+		    (object Attribute
+			tool       	"Data Modeler"
+			name       	"ManagedBy"
+			value      	"")
+		    (object Attribute
+			tool       	"Data Modeler"
+			name       	"ContainerList"
+			value      	"")))
+	    (object Attribute
+		tool       	"Data Modeler"
+		name       	"default__Category"
+		value      	(list Attribute_Set
+		    (object Attribute
+			tool       	"Data Modeler"
+			name       	"dmItem"
+			value      	FALSE)
+		    (object Attribute
+			tool       	"Data Modeler"
+			name       	"DMName"
+			value      	"")
+		    (object Attribute
+			tool       	"Data Modeler"
+			name       	"dmSchema"
+			value      	"")
+		    (object Attribute
+			tool       	"Data Modeler"
+			name       	"dmDomainPackage"
+			value      	"")
+		    (object Attribute
+			tool       	"Data Modeler"
+			name       	"IsSchema"
+			value      	FALSE)
+		    (object Attribute
+			tool       	"Data Modeler"
+			name       	"IsDomainPackage"
+			value      	FALSE)
+		    (object Attribute
+			tool       	"Data Modeler"
+			name       	"IsRootSchema"
+			value      	FALSE)
+		    (object Attribute
+			tool       	"Data Modeler"
+			name       	"IsRootDomainPackage"
+			value      	FALSE)
+		    (object Attribute
+			tool       	"Data Modeler"
+			name       	"IsSchemaPackage"
+			value      	FALSE)
+		    (object Attribute
+			tool       	"Data Modeler"
+			name       	"DatabaseID"
+			value      	"")
+		    (object Attribute
+			tool       	"Data Modeler"
+			name       	"DBMS"
+			value      	"")))
+	    (object Attribute
+		tool       	"Data Modeler"
+		name       	"default__Class"
+		value      	(list Attribute_Set
+		    (object Attribute
+			tool       	"Data Modeler"
+			name       	"dmItem"
+			value      	FALSE)
+		    (object Attribute
+			tool       	"Data Modeler"
+			name       	"DMName"
+			value      	"")
+		    (object Attribute
+			tool       	"Data Modeler"
+			name       	"IsTable"
+			value      	FALSE)
+		    (object Attribute
+			tool       	"Data Modeler"
+			name       	"IsView"
+			value      	FALSE)
+		    (object Attribute
+			tool       	"Data Modeler"
+			name       	"IsDomain"
+			value      	FALSE)
+		    (object Attribute
+			tool       	"Data Modeler"
+			name       	"IsSPPackage"
+			value      	FALSE)
+		    (object Attribute
+			tool       	"Data Modeler"
+			name       	"Synonymns"
+			value      	"")
+		    (object Attribute
+			tool       	"Data Modeler"
+			name       	"TableSpaceID"
+			value      	"")
+		    (object Attribute
+			tool       	"Data Modeler"
+			name       	"SourceId"
+			value      	"")
+		    (object Attribute
+			tool       	"Data Modeler"
+			name       	"SourceType"
+			value      	"")
+		    (object Attribute
+			tool       	"Data Modeler"
+			name       	"CorrelationName"
+			value      	"")
+		    (object Attribute
+			tool       	"Data Modeler"
+			name       	"SelectClause"
+			value      	"")
+		    (object Attribute
+			tool       	"Data Modeler"
+			name       	"IsUpdateable"
+			value      	TRUE)
+		    (object Attribute
+			tool       	"Data Modeler"
+			name       	"CheckOption"
+			value      	"None")
+		    (object Attribute
+			tool       	"Data Modeler"
+			name       	"IsSnapShot"
+			value      	FALSE)
+		    (object Attribute
+			tool       	"Data Modeler"
+			name       	"IsDistinct"
+			value      	FALSE)
+		    (object Attribute
+			tool       	"Data Modeler"
+			name       	"PersistToServer"
+			value      	"")
+		    (object Attribute
+			tool       	"Data Modeler"
+			name       	"IsPackage"
+			value      	FALSE)
+		    (object Attribute
+			tool       	"Data Modeler"
+			name       	"IsPackageWrapped"
+			value      	FALSE)
+		    (object Attribute
+			tool       	"Data Modeler"
+			name       	"IsPackageBodyWrapped"
+			value      	FALSE)))
+	    (object Attribute
+		tool       	"Data Modeler"
+		name       	"default__Attribute"
+		value      	(list Attribute_Set
+		    (object Attribute
+			tool       	"Data Modeler"
+			name       	"dmItem"
+			value      	FALSE)
+		    (object Attribute
+			tool       	"Data Modeler"
+			name       	"DMName"
+			value      	"")
+		    (object Attribute
+			tool       	"Data Modeler"
+			name       	"Ordinal"
+			value      	0)
+		    (object Attribute
+			tool       	"Data Modeler"
+			name       	"IsIdentity"
+			value      	FALSE)
+		    (object Attribute
+			tool       	"Data Modeler"
+			name       	"IsUnique"
+			value      	FALSE)
+		    (object Attribute
+			tool       	"Data Modeler"
+			name       	"NullsAllowed"
+			value      	FALSE)
+		    (object Attribute
+			tool       	"Data Modeler"
+			name       	"Length"
+			value      	0)
+		    (object Attribute
+			tool       	"Data Modeler"
+			name       	"Scale"
+			value      	0)
+		    (object Attribute
+			tool       	"Data Modeler"
+			name       	"ColumnType"
+			value      	"Native")
+		    (object Attribute
+			tool       	"Data Modeler"
+			name       	"ForBitData"
+			value      	FALSE)
+		    (object Attribute
+			tool       	"Data Modeler"
+			name       	"DefaultValueType"
+			value      	"")
+		    (object Attribute
+			tool       	"Data Modeler"
+			name       	"DefaultValue"
+			value      	"")
+		    (object Attribute
+			tool       	"Data Modeler"
+			name       	"SourceId"
+			value      	"")
+		    (object Attribute
+			tool       	"Data Modeler"
+			name       	"SourceType"
+			value      	"")
+		    (object Attribute
+			tool       	"Data Modeler"
+			name       	"OID"
+			value      	FALSE)))
+	    (object Attribute
+		tool       	"Data Modeler"
+		name       	"default__Association"
+		value      	(list Attribute_Set
+		    (object Attribute
+			tool       	"Data Modeler"
+			name       	"dmItem"
+			value      	FALSE)
+		    (object Attribute
+			tool       	"Data Modeler"
+			name       	"DMName"
+			value      	"")
+		    (object Attribute
+			tool       	"Data Modeler"
+			name       	"IsRelationship"
+			value      	FALSE)
+		    (object Attribute
+			tool       	"Data Modeler"
+			name       	"SourceId"
+			value      	"")
+		    (object Attribute
+			tool       	"Data Modeler"
+			name       	"SourceType"
+			value      	"")
+		    (object Attribute
+			tool       	"Data Modeler"
+			name       	"RIMethod"
+			value      	"")
+		    (object Attribute
+			tool       	"Data Modeler"
+			name       	"ParentUpdateRule"
+			value      	"")
+		    (object Attribute
+			tool       	"Data Modeler"
+			name       	"ParentUpdateRuleName"
+			value      	"")
+		    (object Attribute
+			tool       	"Data Modeler"
+			name       	"ParentDeleteRule"
+			value      	"")
+		    (object Attribute
+			tool       	"Data Modeler"
+			name       	"ParentDeleteRuleName"
+			value      	"")
+		    (object Attribute
+			tool       	"Data Modeler"
+			name       	"ChildInsertRestrict"
+			value      	FALSE)
+		    (object Attribute
+			tool       	"Data Modeler"
+			name       	"ChildInsertRestrictName"
+			value      	"")
+		    (object Attribute
+			tool       	"Data Modeler"
+			name       	"ChildMultiplicity"
+			value      	FALSE)
+		    (object Attribute
+			tool       	"Data Modeler"
+			name       	"ChildMultiplicityName"
+			value      	"")))
+	    (object Attribute
+		tool       	"Data Modeler"
+		name       	"default__Role"
+		value      	(list Attribute_Set
+		    (object Attribute
+			tool       	"Data Modeler"
+			name       	"dmItem"
+			value      	FALSE)
+		    (object Attribute
+			tool       	"Data Modeler"
+			name       	"DMName"
+			value      	"")
+		    (object Attribute
+			tool       	"Data Modeler"
+			name       	"ConstraintName"
+			value      	"")))
+	    (object Attribute
+		tool       	"Data Modeler"
+		name       	"default__Operation"
+		value      	(list Attribute_Set
+		    (object Attribute
+			tool       	"Data Modeler"
+			name       	"dmItem"
+			value      	FALSE)
+		    (object Attribute
+			tool       	"Data Modeler"
+			name       	"DMName"
+			value      	"")
+		    (object Attribute
+			tool       	"Data Modeler"
+			name       	"IsConstraint"
+			value      	FALSE)
+		    (object Attribute
+			tool       	"Data Modeler"
+			name       	"ConstraintType"
+			value      	"")
+		    (object Attribute
+			tool       	"Data Modeler"
+			name       	"IsIndex"
+			value      	FALSE)
+		    (object Attribute
+			tool       	"Data Modeler"
+			name       	"IsTrigger"
+			value      	FALSE)
+		    (object Attribute
+			tool       	"Data Modeler"
+			name       	"IsStoredProcedure"
+			value      	FALSE)
+		    (object Attribute
+			tool       	"Data Modeler"
+			name       	"IsCluster"
+			value      	FALSE)
+		    (object Attribute
+			tool       	"Data Modeler"
+			name       	"TableSpace"
+			value      	"")
+		    (object Attribute
+			tool       	"Data Modeler"
+			name       	"FillFactor"
+			value      	0)
+		    (object Attribute
+			tool       	"Data Modeler"
+			name       	"KeyList"
+			value      	"")
+		    (object Attribute
+			tool       	"Data Modeler"
+			name       	"CheckPredicate"
+			value      	"")
+		    (object Attribute
+			tool       	"Data Modeler"
+			name       	"IsUnique"
+			value      	FALSE)
+		    (object Attribute
+			tool       	"Data Modeler"
+			name       	"DeferalMode"
+			value      	"")
+		    (object Attribute
+			tool       	"Data Modeler"
+			name       	"InitialCheckTime"
+			value      	"")
+		    (object Attribute
+			tool       	"Data Modeler"
+			name       	"TriggerType"
+			value      	"")
+		    (object Attribute
+			tool       	"Data Modeler"
+			name       	"IsInsertEvent"
+			value      	FALSE)
+		    (object Attribute
+			tool       	"Data Modeler"
+			name       	"IsUpdateEvent"
+			value      	FALSE)
+		    (object Attribute
+			tool       	"Data Modeler"
+			name       	"IsDeleteEvent"
+			value      	FALSE)
+		    (object Attribute
+			tool       	"Data Modeler"
+			name       	"RefOldTable"
+			value      	"")
+		    (object Attribute
+			tool       	"Data Modeler"
+			name       	"RefNewTable"
+			value      	"")
+		    (object Attribute
+			tool       	"Data Modeler"
+			name       	"RefOldRow"
+			value      	"")
+		    (object Attribute
+			tool       	"Data Modeler"
+			name       	"RefNewRow"
+			value      	"")
+		    (object Attribute
+			tool       	"Data Modeler"
+			name       	"IsRow"
+			value      	FALSE)
+		    (object Attribute
+			tool       	"Data Modeler"
+			name       	"WhenClause"
+			value      	"")
+		    (object Attribute
+			tool       	"Data Modeler"
+			name       	"Language"
+			value      	"SQL")
+		    (object Attribute
+			tool       	"Data Modeler"
+			name       	"ProcType"
+			value      	"Procedure")
+		    (object Attribute
+			tool       	"Data Modeler"
+			name       	"IsDeterministic"
+			value      	FALSE)
+		    (object Attribute
+			tool       	"Data Modeler"
+			name       	"ParameterStyle"
+			value      	"")
+		    (object Attribute
+			tool       	"Data Modeler"
+			name       	"ReturnedNull"
+			value      	FALSE)
+		    (object Attribute
+			tool       	"Data Modeler"
+			name       	"ExternalName"
+			value      	"")
+		    (object Attribute
+			tool       	"Data Modeler"
+			name       	"Length"
+			value      	"")
+		    (object Attribute
+			tool       	"Data Modeler"
+			name       	"Scale"
+			value      	"")
+		    (object Attribute
+			tool       	"Data Modeler"
+			name       	"ForBitData"
+			value      	FALSE)
+		    (object Attribute
+			tool       	"Data Modeler"
+			name       	"DefaultValue"
+			value      	"")
+		    (object Attribute
+			tool       	"Data Modeler"
+			name       	"DefaultValueType"
+			value      	"")
+		    (object Attribute
+			tool       	"Data Modeler"
+			name       	"IsWrapped"
+			value      	FALSE)))
+	    (object Attribute
+		tool       	"Data Modeler"
+		name       	"default__Parameter"
+		value      	(list Attribute_Set
+		    (object Attribute
+			tool       	"Data Modeler"
+			name       	"dmItem"
+			value      	FALSE)
+		    (object Attribute
+			tool       	"Data Modeler"
+			name       	"DMName"
+			value      	"")
+		    (object Attribute
+			tool       	"Data Modeler"
+			name       	"IsInParameter"
+			value      	TRUE)
+		    (object Attribute
+			tool       	"Data Modeler"
+			name       	"IsOutParameter"
+			value      	FALSE)
+		    (object Attribute
+			tool       	"Data Modeler"
+			name       	"Ordinal"
+			value      	"")
+		    (object Attribute
+			tool       	"Data Modeler"
+			name       	"Length"
+			value      	"")
+		    (object Attribute
+			tool       	"Data Modeler"
+			name       	"Scale"
+			value      	"")
+		    (object Attribute
+			tool       	"Data Modeler"
+			name       	"ForBitData"
+			value      	FALSE)
+		    (object Attribute
+			tool       	"Data Modeler"
+			name       	"DefaultValueType"
+			value      	"")
+		    (object Attribute
+			tool       	"Data Modeler"
+			name       	"DefaultValue"
+			value      	"")
+		    (object Attribute
+			tool       	"Data Modeler"
+			name       	"OperationID"
+			value      	"")))
+	    (object Attribute
+		tool       	"Data Modeler"
+		name       	"HiddenTool"
+		value      	FALSE)
+	    (object Attribute
+		tool       	"Data Modeler Communicator"
+		name       	"HiddenTool"
+		value      	FALSE)
+	    (object Attribute
+		tool       	"Web Modeler"
 		name       	"HiddenTool"
 		value      	FALSE))
 	quid       	"34DBB4830145"))
