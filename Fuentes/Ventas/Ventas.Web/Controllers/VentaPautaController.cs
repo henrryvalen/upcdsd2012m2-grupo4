@@ -6,10 +6,11 @@ using System.Web.Mvc;
 using Ventas.BL;
 using Ventas.BE;
 using System.ComponentModel.DataAnnotations;
+using System.Messaging;
 
 namespace Ventas.Web.Controllers
 {
-     [AuthorizeVentas]
+    [AuthorizeVentas]
     public class VentaPautaController : Controller
     {
         #region
@@ -28,33 +29,39 @@ namespace Ventas.Web.Controllers
             return View(modelo);
         }
 
-        public ActionResult Create()
+        public ActionResult CreateIndex()
         {
-            
-            cargarRadio(null);
-            cargarEmpresa();
-            cargarPrioridad(null);            
-            cargarTipoTransaccion(null);
-            cargarTipoOrden(null);
-            cargarTipoPago(null);
-            cargarEstado(null);            
-            return View();
+            return View("CreateIndex");
         }
 
         [HttpPost]
-        public ActionResult Create(VentaPauta VentaPautaACrear)
+        public ActionResult CreateIndex(Empresa form)
         {
-            try
+
+            string rutaColaEmpresas = @".\private$\Empresas";
+
+            if (!MessageQueue.Exists(rutaColaEmpresas))
+                MessageQueue.Create(rutaColaEmpresas);
+
+
+            MessageQueue colaEmpresas = new MessageQueue(rutaColaEmpresas);
+            colaEmpresas.Formatter = new XmlMessageFormatter(new Type[] { typeof(Empresa) });
+
+
+            Message mensajeEmpresa = colaEmpresas.Receive();
+            Empresa empresa = (Empresa)mensajeEmpresa.Body;
+            VentaPauta venta = new VentaPauta();
+            venta.empresaRUC = empresa.RUC;
+
+
+
+            if (empresa.estadoInfocorp == "No Habilitada")
             {
-                AdminService.RegistrarVentaPauta(VentaPautaACrear.Codigo, VentaPautaACrear.radioCodigo, VentaPautaACrear.ventaNombreVendedor, VentaPautaACrear.ventaDescripcionProducto, VentaPautaACrear.empresaRUC, VentaPautaACrear.tipoPautaCodigo, VentaPautaACrear.ventaNumeroDias, VentaPautaACrear.ventaPrioridad,
-                VentaPautaACrear.ventaTipoTransaccion, VentaPautaACrear.ventaIGV, VentaPautaACrear.ventaTipoOrden, VentaPautaACrear.ventaImporteTotal, VentaPautaACrear.ventaMontoTotal, VentaPautaACrear.ventaTipoPago, VentaPautaACrear.ventaFechaCreacion, VentaPautaACrear.ventaUsuarioCreacion, VentaPautaACrear.ventaEstado);
-
-
-                return RedirectToAction("Index");
+                return View("CreateDetail", venta);
             }
-            catch
+            else
             {
-                return View();
+                return View("CreateDetail");
             }
         }
 
@@ -75,7 +82,7 @@ namespace Ventas.Web.Controllers
 
         #region "Metodos Utiles"
 
-        
+
         public void cargarEstado(string seleccion)
         {
             ViewData["Estado"] = new SelectList(new List<SelectListItem> { 
@@ -130,7 +137,7 @@ namespace Ventas.Web.Controllers
                                     new SelectListItem { Value = "1", Text = "SOLES"}, 
                                     new SelectListItem { Value = "2", Text = "DOLARES" } 
                                    }, "Value", "Text", !string.IsNullOrEmpty(seleccion) ? seleccion : null);
-        } 
+        }
 
         #endregion
 

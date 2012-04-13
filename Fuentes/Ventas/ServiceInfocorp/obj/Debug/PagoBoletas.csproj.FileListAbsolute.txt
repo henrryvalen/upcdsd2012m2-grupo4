@@ -1,0 +1,5 @@
+E:\PC2\PagoBoletas\PagoBoletas\bin\PagoBoletas.dll
+E:\PC2\PagoBoletas\PagoBoletas\bin\PagoBoletas.pdb
+E:\PC2\PagoBoletas\PagoBoletas\obj\Debug\ResolveAssemblyReference.cache
+E:\PC2\PagoBoletas\PagoBoletas\obj\Debug\PagoBoletas.dll
+E:\PC2\PagoBoletas\PagoBoletas\obj\Debug\PagoBoletas.pdb

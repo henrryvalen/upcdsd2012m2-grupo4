@@ -74,14 +74,3 @@ G:\Jonathan\UPC\6to Ciclo\Desarrollo de Sistemas Distribuidos\upcdsd2012m2-grupo
 G:\Jonathan\UPC\6to Ciclo\Desarrollo de Sistemas Distribuidos\upcdsd2012m2-grupo4\Fuentes\Ventas\Ventas.BL\bin\Debug\TimeSheet.BE.pdb
 G:\Jonathan\UPC\6to Ciclo\Desarrollo de Sistemas Distribuidos\upcdsd2012m2-grupo4\Fuentes\Ventas\Ventas.BL\bin\Debug\Ventas.DAL.pdb
 G:\Jonathan\UPC\6to Ciclo\Desarrollo de Sistemas Distribuidos\upcdsd2012m2-grupo4\Fuentes\Ventas\Ventas.BL\bin\Debug\EntityFramework.xml
-E:\upcdsd2012m2-grupo4\Fuentes\Ventas\Ventas.BL\bin\Debug\Ventas.BL.dll
-E:\upcdsd2012m2-grupo4\Fuentes\Ventas\Ventas.BL\bin\Debug\Ventas.BL.pdb
-E:\upcdsd2012m2-grupo4\Fuentes\Ventas\Ventas.BL\bin\Debug\TimeSheet.BE.dll
-E:\upcdsd2012m2-grupo4\Fuentes\Ventas\Ventas.BL\bin\Debug\Ventas.DAL.dll
-E:\upcdsd2012m2-grupo4\Fuentes\Ventas\Ventas.BL\bin\Debug\EntityFramework.dll
-E:\upcdsd2012m2-grupo4\Fuentes\Ventas\Ventas.BL\bin\Debug\TimeSheet.BE.pdb
-E:\upcdsd2012m2-grupo4\Fuentes\Ventas\Ventas.BL\bin\Debug\Ventas.DAL.pdb
-E:\upcdsd2012m2-grupo4\Fuentes\Ventas\Ventas.BL\bin\Debug\EntityFramework.xml
-E:\upcdsd2012m2-grupo4\Fuentes\Ventas\Ventas.BL\obj\Debug\ResolveAssemblyReference.cache
-E:\upcdsd2012m2-grupo4\Fuentes\Ventas\Ventas.BL\obj\Debug\Ventas.BL.dll
-E:\upcdsd2012m2-grupo4\Fuentes\Ventas\Ventas.BL\obj\Debug\Ventas.BL.pdb

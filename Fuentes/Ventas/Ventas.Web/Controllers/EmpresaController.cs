@@ -7,6 +7,9 @@ using Ventas.BL;
 using Ventas.BE;
 using System.ComponentModel.DataAnnotations;
 using Ventas.Web.Models;
+using System.Net;
+using System.IO;
+using System.Messaging;
 
 namespace Ventas.Web.Controllers
 {
@@ -92,7 +95,7 @@ namespace Ventas.Web.Controllers
                 return View();
             }
         }
-        
+
         public ActionResult Find()
         {
             return View("Find");
@@ -114,6 +117,34 @@ namespace Ventas.Web.Controllers
                 empresas.Add(empresa);
             }
             return View("FindDetail", empresas);
+        }
+
+        public ActionResult FindInfocorp()
+        {
+            return View("FindInfocorp");
+        }
+
+        [HttpPost]
+        public ActionResult FindInfocorp(Empresa form)
+        {
+            HttpWebRequest request = WebRequest.Create("http://localhost:63519/Empresas.svc/ObtenerEstadoEmpresa") as HttpWebRequest;
+            HttpWebResponse response = request.GetResponse() as HttpWebResponse;
+            StreamReader reader = new StreamReader(response.GetResponseStream());
+            string estado = reader.ReadToEnd();
+
+
+            string rutaEmpresas = @".\private$\Empresas";
+            if (!MessageQueue.Exists(rutaEmpresas))
+                MessageQueue.Create(rutaEmpresas);
+
+            MessageQueue colaEmpresas = new MessageQueue(rutaEmpresas);
+
+            Message mensaje = new Message();
+            mensaje.Label = "Estado Empresa Infocorp";
+            mensaje.Body = new Empresa() { RUC = form.RUC, estadoInfocorp = estado };
+            colaEmpresas.Send(mensaje);
+            
+            return View("FindInfocorp");
         }
 
         public ActionResult State(string RUC)

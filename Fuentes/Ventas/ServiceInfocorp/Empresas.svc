@@ -1,0 +1,2 @@
+﻿<%@ ServiceHost Language="C#" Debug="true" Service="Infocorp.Empresas" CodeBehind="Empresas.svc.cs"
+    Factory="System.ServiceModel.Activation.WebServiceHostFactory" %>

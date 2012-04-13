@@ -87,16 +87,3 @@ G:\Jonathan\UPC\6to Ciclo\Desarrollo de Sistemas Distribuidos\upcdsd2012m2-grupo
 G:\Jonathan\UPC\6to Ciclo\Desarrollo de Sistemas Distribuidos\upcdsd2012m2-grupo4\Fuentes\Ventas\Ventas.Web\bin\Ventas.DAL.pdb
 G:\Jonathan\UPC\6to Ciclo\Desarrollo de Sistemas Distribuidos\upcdsd2012m2-grupo4\Fuentes\Ventas\Ventas.Web\bin\EntityFramework.xml
 G:\Jonathan\UPC\6to Ciclo\Desarrollo de Sistemas Distribuidos\upcdsd2012m2-grupo4\Fuentes\Ventas\Ventas.Web\obj\Debug\Ventas.Web.pdb
-E:\upcdsd2012m2-grupo4\Fuentes\Ventas\Ventas.Web\bin\Ventas.Web.dll
-E:\upcdsd2012m2-grupo4\Fuentes\Ventas\Ventas.Web\bin\Ventas.Web.pdb
-E:\upcdsd2012m2-grupo4\Fuentes\Ventas\Ventas.Web\bin\TimeSheet.BE.dll
-E:\upcdsd2012m2-grupo4\Fuentes\Ventas\Ventas.Web\bin\Ventas.BL.dll
-E:\upcdsd2012m2-grupo4\Fuentes\Ventas\Ventas.Web\bin\Ventas.DAL.dll
-E:\upcdsd2012m2-grupo4\Fuentes\Ventas\Ventas.Web\bin\EntityFramework.dll
-E:\upcdsd2012m2-grupo4\Fuentes\Ventas\Ventas.Web\bin\TimeSheet.BE.pdb
-E:\upcdsd2012m2-grupo4\Fuentes\Ventas\Ventas.Web\bin\Ventas.BL.pdb
-E:\upcdsd2012m2-grupo4\Fuentes\Ventas\Ventas.Web\bin\Ventas.DAL.pdb
-E:\upcdsd2012m2-grupo4\Fuentes\Ventas\Ventas.Web\bin\EntityFramework.xml
-E:\upcdsd2012m2-grupo4\Fuentes\Ventas\Ventas.Web\obj\Debug\ResolveAssemblyReference.cache
-E:\upcdsd2012m2-grupo4\Fuentes\Ventas\Ventas.Web\obj\Debug\Ventas.Web.dll
-E:\upcdsd2012m2-grupo4\Fuentes\Ventas\Ventas.Web\obj\Debug\Ventas.Web.pdb

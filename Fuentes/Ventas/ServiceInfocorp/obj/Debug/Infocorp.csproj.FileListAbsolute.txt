@@ -1,0 +1,5 @@
+C:\Documents and Settings\XPMUser\Mis documentos\Downloads\Ventas\Ventas\ServiceInfocorp\bin\PagoBoletas.dll
+C:\Documents and Settings\XPMUser\Mis documentos\Downloads\Ventas\Ventas\ServiceInfocorp\bin\PagoBoletas.pdb
+C:\Documents and Settings\XPMUser\Mis documentos\Downloads\Ventas\Ventas\ServiceInfocorp\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\XPMUser\Mis documentos\Downloads\Ventas\Ventas\ServiceInfocorp\obj\Debug\PagoBoletas.dll
+C:\Documents and Settings\XPMUser\Mis documentos\Downloads\Ventas\Ventas\ServiceInfocorp\obj\Debug\PagoBoletas.pdb

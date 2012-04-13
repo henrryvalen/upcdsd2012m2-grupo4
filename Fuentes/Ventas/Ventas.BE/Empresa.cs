@@ -33,5 +33,8 @@ namespace Ventas.BE
         [DataMember]
         [Required(ErrorMessage = "El estado es obligatorio")]
         public string Estado { get; set; }
+
+        [DataMember]
+        public string estadoInfocorp { get; set; }
     }
 }

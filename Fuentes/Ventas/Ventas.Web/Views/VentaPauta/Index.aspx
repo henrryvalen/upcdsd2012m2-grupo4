@@ -70,7 +70,7 @@
     </table>
 
     <p>
-        <%: Html.ActionLink("Registrar Venta", "Create") %>
+        <%: Html.ActionLink("Registrar Venta", "CreateIndex")%>
     </p>
 
 </asp:Content>
