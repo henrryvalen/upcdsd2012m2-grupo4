@@ -33,3 +33,8 @@ G:\Jonathan\UPC\6to Ciclo\Desarrollo de Sistemas Distribuidos\upcdsd2012m2-grupo
 G:\Jonathan\UPC\6to Ciclo\Desarrollo de Sistemas Distribuidos\upcdsd2012m2-grupo4\Fuentes\Ventas\Ventas.BE\obj\Debug\ResolveAssemblyReference.cache
 G:\Jonathan\UPC\6to Ciclo\Desarrollo de Sistemas Distribuidos\upcdsd2012m2-grupo4\Fuentes\Ventas\Ventas.BE\obj\Debug\TimeSheet.BE.dll
 G:\Jonathan\UPC\6to Ciclo\Desarrollo de Sistemas Distribuidos\upcdsd2012m2-grupo4\Fuentes\Ventas\Ventas.BE\obj\Debug\TimeSheet.BE.pdb
+E:\upcdsd2012m2-grupo4\Fuentes\Ventas\Ventas.BE\bin\Debug\TimeSheet.BE.dll
+E:\upcdsd2012m2-grupo4\Fuentes\Ventas\Ventas.BE\bin\Debug\TimeSheet.BE.pdb
+E:\upcdsd2012m2-grupo4\Fuentes\Ventas\Ventas.BE\obj\Debug\ResolveAssemblyReference.cache
+E:\upcdsd2012m2-grupo4\Fuentes\Ventas\Ventas.BE\obj\Debug\TimeSheet.BE.dll
+E:\upcdsd2012m2-grupo4\Fuentes\Ventas\Ventas.BE\obj\Debug\TimeSheet.BE.pdb

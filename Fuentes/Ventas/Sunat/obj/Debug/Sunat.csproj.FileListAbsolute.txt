@@ -12,3 +12,10 @@ G:\Jonathan\UPC\6to Ciclo\Desarrollo de Sistemas Distribuidos\upcdsd2012m2-grupo
 G:\Jonathan\UPC\6to Ciclo\Desarrollo de Sistemas Distribuidos\upcdsd2012m2-grupo4\Fuentes\Ventas\Sunat\obj\Debug\ResolveAssemblyReference.cache
 G:\Jonathan\UPC\6to Ciclo\Desarrollo de Sistemas Distribuidos\upcdsd2012m2-grupo4\Fuentes\Ventas\Sunat\obj\Debug\Sunat.dll
 G:\Jonathan\UPC\6to Ciclo\Desarrollo de Sistemas Distribuidos\upcdsd2012m2-grupo4\Fuentes\Ventas\Sunat\obj\Debug\Sunat.pdb
+E:\upcdsd2012m2-grupo4\Fuentes\Ventas\Sunat\bin\Sunat.dll
+E:\upcdsd2012m2-grupo4\Fuentes\Ventas\Sunat\bin\Sunat.pdb
+E:\upcdsd2012m2-grupo4\Fuentes\Ventas\Sunat\bin\TimeSheet.BE.dll
+E:\upcdsd2012m2-grupo4\Fuentes\Ventas\Sunat\bin\TimeSheet.BE.pdb
+E:\upcdsd2012m2-grupo4\Fuentes\Ventas\Sunat\obj\Debug\ResolveAssemblyReference.cache
+E:\upcdsd2012m2-grupo4\Fuentes\Ventas\Sunat\obj\Debug\Sunat.dll
+E:\upcdsd2012m2-grupo4\Fuentes\Ventas\Sunat\obj\Debug\Sunat.pdb

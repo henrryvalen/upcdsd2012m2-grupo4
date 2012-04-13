@@ -136,6 +136,7 @@
       <DependentUpon>Reference.map</DependentUpon>
     </None>
     <None Include="Web References\ServicioSunat\Empresas.disco" />
+    <Content Include="Views\VentaPauta\Create.aspx" />
     <Content Include="Views\VentaPauta\Index.aspx" />
     <Content Include="Web.config">
       <SubType>Designer</SubType>
