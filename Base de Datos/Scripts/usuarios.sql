@@ -1,14 +1,14 @@
 INSERT INTO usuario (usuarioCodigo, usuarioUser, usuarioPassword, usuarioEstado) VALUES
-(1, 'bcabrera@crpradio.com', 'bcabreranupc', 'A');
+(1, 'belen', 'bcabreranupc', 'A');
 INSERT INTO usuario (usuarioCodigo, usuarioUser, usuarioPassword, usuarioEstado) VALUES
-(2, 'cescobar@crpradio.com', 'cescobarupc', 'A');
+(2, 'carlos', 'cescobarupc', 'A');
 INSERT INTO usuario (usuarioCodigo, usuarioUser, usuarioPassword, usuarioEstado) VALUES
-(3, 'hbravo@crpradio.com', 'hbravoupc', 'A');
+(3, 'hellen', 'hbravoupc', 'A');
 INSERT INTO usuario (usuarioCodigo, usuarioUser, usuarioPassword, usuarioEstado) VALUES
-(4, 'jgamba@crpradio.com', 'jgambaupc', 'A');
+(4, 'jonathan', 'jgambaupc', 'A');
 INSERT INTO usuario (usuarioCodigo, usuarioUser, usuarioPassword, usuarioEstado) VALUES
-(5, 'rpanaijo@crpradio.com', 'rpanaijoupc', 'A');
+(5, 'roger', 'rpanaijoupc', 'A');
 INSERT INTO usuario (usuarioCodigo, usuarioUser, usuarioPassword, usuarioEstado) VALUES
-(6, 'rpalomino@crpradio.com', 'rpalominoupc', 'A');
+(6, 'rolando', 'rpalominoupc', 'A');
 INSERT INTO usuario (usuarioCodigo, usuarioUser, usuarioPassword, usuarioEstado) VALUES
 (7, 'admin', '123', 'A');
