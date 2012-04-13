@@ -55,13 +55,13 @@ namespace Ventas.Web.Controllers
 
 
 
-            if (empresa.estadoInfocorp == "No Habilitada")
+            if (empresa.RUC == "123456")
             {
                 return View("CreateDetail", venta);
             }
             else
             {
-                return View("CreateDetail");
+                return View("CreateIndex");
             }
         }
 

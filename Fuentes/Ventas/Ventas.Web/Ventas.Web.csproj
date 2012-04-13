@@ -41,6 +41,7 @@
     <Reference Include="System" />
     <Reference Include="System.Data" />
     <Reference Include="System.Drawing" />
+    <Reference Include="System.Messaging" />
     <Reference Include="System.Runtime.Serialization" />
     <Reference Include="System.ServiceModel" />
     <Reference Include="System.Web.DynamicData" />
@@ -108,6 +109,7 @@
     <Content Include="Images\reloj.jpg" />
     <Content Include="Scripts\date.js" />
     <Content Include="Scripts\jquery.datePicker.js" />
+    <Content Include="Views\Empresa\FindInfocorp.aspx" />
     <Content Include="Views\Empresa\FindDetail.aspx" />
     <Content Include="Views\Empresa\State.aspx" />
     <Content Include="Views\Empresa\Create.aspx" />
@@ -136,7 +138,8 @@
       <DependentUpon>Reference.map</DependentUpon>
     </None>
     <None Include="Web References\ServicioSunat\Empresas.disco" />
-    <Content Include="Views\VentaPauta\Create.aspx" />
+    <Content Include="Views\VentaPauta\CreateDetail.aspx" />
+    <Content Include="Views\VentaPauta\CreateIndex.aspx" />
     <Content Include="Views\VentaPauta\Index.aspx" />
     <Content Include="Web.config">
       <SubType>Designer</SubType>
